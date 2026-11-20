@@ -1,0 +1,3555 @@
+{
+  "dossier": "/Users/paul/Downloads/dnl-avocats-recu",
+  "date": "2026-11-20T17:25:13.194Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "dnlavocats-lyon.jpg",
+      "nom": "dnlavocats-lyon",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 678914,
+      "transparence": false,
+      "sujet": {
+        "x": 33.8,
+        "y": 39.7,
+        "l": 25,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        51
+      ],
+      "cadrage_css": "47% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        }
+      ],
+      "qualite": {
+        "nettete": 58.4,
+        "bruit": 1.85,
+        "compression": 1.27,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "010102c8cbd8f0c0",
+      "drapeaux": [
+        "autre",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "anne-di-nicola-cabinet.jpg",
+      "nom": "anne-di-nicola-cabinet",
+      "drapeau": "lieu",
+      "largeur": 1336,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.668,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 421670,
+      "transparence": false,
+      "sujet": {
+        "x": 29,
+        "y": 8.7,
+        "l": 50.4,
+        "h": 44.4,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        54,
+        28
+      ],
+      "cadrage_css": "54% 28%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.47,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.38
+        }
+      ],
+      "qualite": {
+        "nettete": 28.6,
+        "bruit": 1.03,
+        "compression": 0.93,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "4c4c564cd0d2890b",
+      "drapeaux": [
+        "lieu",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "agathe-schiltz-cabinet-dnl.jpg",
+      "nom": "agathe-schiltz-cabinet-dnl",
+      "drapeau": "lieu",
+      "largeur": 1336,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.668,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 396979,
+      "transparence": false,
+      "sujet": {
+        "x": 29.3,
+        "y": 10.9,
+        "l": 39.8,
+        "h": 35.1,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        49,
+        26
+      ],
+      "cadrage_css": "49% 26%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.57,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 23.8,
+        "bruit": 0.95,
+        "compression": 0.94,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "b8eacee9f10c1e0c",
+      "drapeaux": [
+        "lieu",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "agathe-lucot-cabinet-dnl.jpg",
+      "nom": "agathe-lucot-cabinet-dnl",
+      "drapeau": "lieu",
+      "largeur": 1336,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.668,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 344665,
+      "transparence": false,
+      "sujet": {
+        "x": 23.6,
+        "y": 0,
+        "l": 58.7,
+        "h": 51.6,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        53,
+        21
+      ],
+      "cadrage_css": "53% 21%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.57,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "sombre",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        }
+      ],
+      "qualite": {
+        "nettete": 15.5,
+        "bruit": 0.82,
+        "compression": 0.9,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c696828b131f1b23",
+      "drapeaux": [
+        "lieu",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "avignon-cabinet-avocats-dnl.jpg",
+      "nom": "avignon-cabinet-avocats-dnl",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1501,
+      "ratio": "4:3",
+      "ratio_valeur": 1.332,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 814339,
+      "transparence": false,
+      "sujet": {
+        "x": 8.4,
+        "y": 54.2,
+        "l": 62.1,
+        "h": 27.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        64
+      ],
+      "cadrage_css": "48% 64%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 56.3,
+        "bruit": 2.16,
+        "compression": 1.16,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f7e5feff35d4dd15",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "fonction-publique.jpg",
+      "nom": "fonction-publique",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 939,
+      "ratio": "2.13",
+      "ratio_valeur": 2.13,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 76240,
+      "transparence": false,
+      "sujet": {
+        "x": 8.8,
+        "y": 35.3,
+        "l": 17.6,
+        "h": 17.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        18,
+        44
+      ],
+      "cadrage_css": "18% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.9,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.88,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.88,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.81,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 11.3,
+        "bruit": 0.18,
+        "compression": 2.29,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "00000040f07e0f40",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme haut/droite/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit.jpg",
+      "nom": "expertises-droit-famille-droit",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 192249,
+      "transparence": false,
+      "sujet": {
+        "x": 24.7,
+        "y": 13.2,
+        "l": 43.7,
+        "h": 86.8,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        51,
+        33
+      ],
+      "cadrage_css": "51% 33%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.66,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.59,
+          "ton": "sombre",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "gauche",
+          "score": 0.5,
+          "ton": "sombre",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "haut",
+          "score": 0.44,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 29.7,
+        "bruit": 0.5,
+        "compression": 1.57,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c496bce6fb9b9e96",
+      "drapeaux": [
+        "autre",
+        "2 visages",
+        "compression visible",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-2.webp",
+      "nom": "expertises-droit-famille-droit-2",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 16590,
+      "transparence": false,
+      "sujet": {
+        "x": 5.9,
+        "y": 13.2,
+        "l": 73.5,
+        "h": 55.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        45
+      ],
+      "cadrage_css": "49% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.74,
+          "ton": "sombre",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "haut",
+          "score": 0.74,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "sombre",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 24.1,
+        "bruit": 0.39,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "LECOUR - · TEL DIEU · Bernard · Rue Cavenne · Rue Pasteur · Vohe · LA GUILLOTIÈI · Quai Victor · Rue Chaponnay",
+        "blocs": 9,
+        "surface": 21.8,
+        "details": [
+          {
+            "texte": "LECOUR -",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "TEL DIEU",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bernard",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Cavenne",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Pasteur",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Vohe",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LA GUILLOTIÈI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Quai Victor",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Chaponnay",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8a0a1c1e3f397275",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme bas/droite/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-3.webp",
+      "nom": "expertises-droit-famille-droit-3",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 21772,
+      "transparence": false,
+      "sujet": {
+        "x": 1.5,
+        "y": 0,
+        "l": 73.5,
+        "h": 39.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        28,
+        16
+      ],
+      "cadrage_css": "28% 16%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.84,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.78,
+          "ton": "sombre",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "gauche",
+          "score": 0.61,
+          "ton": "sombre",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "sombre",
+          "recouvre_sujet": 0.74
+        }
+      ],
+      "qualite": {
+        "nettete": 23.5,
+        "bruit": 0.38,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "REAUX - · D'ARGENT · Rue Gentil · Quai Jean Moulin · CORDELIERS · Le Rhône · Rue Molière · . Marechal de Saxe · Rue Rabelais · Rue Servient",
+        "blocs": 10,
+        "surface": 22.1,
+        "details": [
+          {
+            "texte": "REAUX -",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "D'ARGENT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Gentil",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Quai Jean Moulin",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CORDELIERS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Le Rhône",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Rue Molière",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": ". Marechal de Saxe",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Rabelais",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Servient",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0f8e8e8e8e8e8e8e",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme bas/droite"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-4.webp",
+      "nom": "expertises-droit-famille-droit-4",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 22606,
+      "transparence": false,
+      "sujet": {
+        "x": 11.8,
+        "y": 1.5,
+        "l": 60.3,
+        "h": 61.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        31
+      ],
+      "cadrage_css": "41% 31%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.88,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.74,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "gauche",
+          "score": 0.68,
+          "ton": "sombre",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "haut",
+          "score": 0.55,
+          "ton": "sombre",
+          "recouvre_sujet": 0.58
+        }
+      ],
+      "qualite": {
+        "nettete": 24.8,
+        "bruit": 0.42,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "3 ROTTEAUX · Dia NeV · BELLECOMBE · Rue Bellecombe · Cr Lafayette · Av. Thiers · Rue Germain · Rue de Bonnel · Rue Saint-An · VILL · LA VILLETTE",
+        "blocs": 11,
+        "surface": 16.7,
+        "details": [
+          {
+            "texte": "3 ROTTEAUX",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Dia NeV",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BELLECOMBE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Bellecombe",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cr Lafayette",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. Thiers",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Germain",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue de Bonnel",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Saint-An",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "VILL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LA VILLETTE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2c1c594c4c484d4c",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-5.webp",
+      "nom": "expertises-droit-famille-droit-5",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 22496,
+      "transparence": false,
+      "sujet": {
+        "x": 52.9,
+        "y": 8.8,
+        "l": 25,
+        "h": 61.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        65,
+        44
+      ],
+      "cadrage_css": "65% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.88,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.84,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "haut",
+          "score": 0.71,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "droite",
+          "score": 0.63,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 24.3,
+        "bruit": 0.4,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "ue Bossuel · Rue Vauban · Cr Lafayette · MOLIÈRE LES E · VAUBAN · Rue Vauban · Rue Robert · Cr Lafayette · Rue Garibaldi · Bd Eugène Deruell · LA PART-DIEU",
+        "blocs": 11,
+        "surface": 23.6,
+        "details": [
+          {
+            "texte": "ue Bossuel",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Vauban",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Cr Lafayette",
+            "niveau": "marque"
+          },
+          {
+            "texte": "MOLIÈRE LES E",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "VAUBAN",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Vauban",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Rue Robert",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cr Lafayette",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Rue Garibaldi",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bd Eugène Deruell",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LA PART-DIEU",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "a8ac8426a6ab9894",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme gauche/bas/haut"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-6.webp",
+      "nom": "expertises-droit-famille-droit-6",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 17362,
+      "transparence": false,
+      "sujet": {
+        "x": 11.8,
+        "y": 22.1,
+        "l": 60.3,
+        "h": 64.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        51
+      ],
+      "cadrage_css": "43% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.85,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "droite",
+          "score": 0.82,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "bas",
+          "score": 0.67,
+          "ton": "sombre",
+          "recouvre_sujet": 0.38
+        }
+      ],
+      "qualite": {
+        "nettete": 21.1,
+        "bruit": 0.32,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Bert 3E ARR. · Bd Marius Vivier Me · Av. Lacassagne · Esplanade · Nelson · Mandela",
+        "blocs": 6,
+        "surface": 22.1,
+        "details": [
+          {
+            "texte": "Bert 3E ARR.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bd Marius Vivier Me",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. Lacassagne",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Esplanade",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Nelson",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Mandela",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4828990918525159",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme haut/droite/gauche/bas"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-7.webp",
+      "nom": "expertises-droit-famille-droit-7",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 15850,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 4.4,
+        "l": 80.9,
+        "h": 77.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        44
+      ],
+      "cadrage_css": "46% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.71,
+          "ton": "sombre",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "sombre",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "sombre",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "sombre",
+          "recouvre_sujet": 0.71
+        }
+      ],
+      "qualite": {
+        "nettete": 26.4,
+        "bruit": 0.37,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "SAINT-PAUL · Mnt Saint-Barthélémy · SAINT-JEAN · Saône · Quai Saint-Antoine · TER · BAT · LES",
+        "blocs": 8,
+        "surface": 29.1,
+        "details": [
+          {
+            "texte": "SAINT-PAUL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Mnt Saint-Barthélémy",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SAINT-JEAN",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Saône",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Quai Saint-Antoine",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "TER",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BAT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LES",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4fa62707c78686a6",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-8.webp",
+      "nom": "expertises-droit-famille-droit-8",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 13466,
+      "transparence": false,
+      "sujet": {
+        "x": 11.8,
+        "y": 20.6,
+        "l": 57.4,
+        "h": 50,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        45
+      ],
+      "cadrage_css": "40% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.88,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.86,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.82,
+          "ton": "sombre",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "gauche",
+          "score": 0.73,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 17.2,
+        "bruit": 0.3,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Rue de Trion · IT-IRÉNÉE · Mnt de Choulan: · ANTIQ · 5E ARR.",
+        "blocs": 5,
+        "surface": 13.6,
+        "details": [
+          {
+            "texte": "Rue de Trion",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "IT-IRÉNÉE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Mnt de Choulan:",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ANTIQ",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "5E ARR.",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "11e961359c8c4642",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/droite/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-9.webp",
+      "nom": "expertises-droit-famille-droit-9",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 8332,
+      "transparence": false,
+      "sujet": {
+        "x": 45.6,
+        "y": 2.9,
+        "l": 30.9,
+        "h": 83.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        31
+      ],
+      "cadrage_css": "60% 31%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.97,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.84,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "haut",
+          "score": 0.82,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.77,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 14.5,
+        "bruit": 0.15,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Quai de Pierre-Scize · FOURVIÈRE",
+        "blocs": 2,
+        "surface": 10.9,
+        "details": [
+          {
+            "texte": "Quai de Pierre-Scize",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FOURVIÈRE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0f2c8890d0c0e0ac",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/bas/haut/droite"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-10.webp",
+      "nom": "expertises-droit-famille-droit-10",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 10214,
+      "transparence": false,
+      "sujet": {
+        "x": 38.8,
+        "y": 42.8,
+        "l": 30.3,
+        "h": 57.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        66
+      ],
+      "cadrage_css": "53% 66%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.93,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "haut",
+          "score": 0.92,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.91,
+          "ton": "sombre",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "bas",
+          "score": 0.83,
+          "ton": "sombre",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 8.1,
+        "bruit": 0.22,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Rue: · Rue de l'Aulanière · Roca · viève",
+        "blocs": 4,
+        "surface": 8.7,
+        "details": [
+          {
+            "texte": "Rue:",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue de l'Aulanière",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Roca",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "viève",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8c21a2301010184a",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme gauche/haut/droite/bas"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-11.webp",
+      "nom": "expertises-droit-famille-droit-11",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 20676,
+      "transparence": false,
+      "sujet": {
+        "x": 19.6,
+        "y": 40.4,
+        "l": 48.4,
+        "h": 49.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        53
+      ],
+      "cadrage_css": "42% 53%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.86,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "haut",
+          "score": 0.84,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.75,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        }
+      ],
+      "qualite": {
+        "nettete": 20.1,
+        "bruit": 0.4,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Maréchal de Saxe · RE-NORD · MONCEY · Rue Voltaire · ue Vendôme · Rue Paul Bert · Rue de Créqui · Rue Paul · Rue André Philip · Cr Cambe · Av. Félix Faure",
+        "blocs": 11,
+        "surface": 30.4,
+        "details": [
+          {
+            "texte": "Maréchal de Saxe",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "RE-NORD",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MONCEY",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Voltaire",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ue Vendôme",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Paul Bert",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue de Créqui",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Paul",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue André Philip",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cr Cambe",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. Félix Faure",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "411b92521a6a6ad8",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme droite/haut/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-12.webp",
+      "nom": "expertises-droit-famille-droit-12",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 8936,
+      "transparence": false,
+      "sujet": {
+        "x": 28.6,
+        "y": 39,
+        "l": 30.6,
+        "h": 36.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        57
+      ],
+      "cadrage_css": "52% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.96,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.91,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "droite",
+          "score": 0.91,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.9,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        }
+      ],
+      "qualite": {
+        "nettete": 8.4,
+        "bruit": 0.19,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Rte du Confluen · Rue Sainte-Gene",
+        "blocs": 2,
+        "surface": 11.5,
+        "details": [
+          {
+            "texte": "Rte du Confluen",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Rue Sainte-Gene",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "071f5ef70c086844",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme haut/gauche/droite/bas"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-13.webp",
+      "nom": "expertises-droit-famille-droit-13",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 6420,
+      "transparence": false,
+      "sujet": {
+        "x": 35.3,
+        "y": 30.9,
+        "l": 60.3,
+        "h": 41.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        50
+      ],
+      "cadrage_css": "63% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.95,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "bas",
+          "score": 0.93,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.92,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "droite",
+          "score": 0.81,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        }
+      ],
+      "qualite": {
+        "nettete": 7.2,
+        "bruit": 0.13,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Av. de l'Amandier",
+        "blocs": 1,
+        "surface": 4.6,
+        "details": [
+          {
+            "texte": "Av. de l'Amandier",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "0693940a48200080",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme gauche/bas/haut/droite"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-14.webp",
+      "nom": "expertises-droit-famille-droit-14",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 6870,
+      "transparence": false,
+      "sujet": {
+        "x": 1.5,
+        "y": 33.8,
+        "l": 64.7,
+        "h": 54.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        60
+      ],
+      "cadrage_css": "35% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.97,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.93,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "bas",
+          "score": 0.77,
+          "ton": "sombre",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "gauche",
+          "score": 0.76,
+          "ton": "sombre",
+          "recouvre_sujet": 0.52
+        }
+      ],
+      "qualite": {
+        "nettete": 5.6,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "du Confluent",
+        "blocs": 1,
+        "surface": 2.5,
+        "details": [
+          {
+            "texte": "du Confluent",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "40603022100c87a0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "texte décoratif",
+        "calme haut/droite/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-15.webp",
+      "nom": "expertises-droit-famille-droit-15",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 18136,
+      "transparence": false,
+      "sujet": {
+        "x": 30.9,
+        "y": 25,
+        "l": 29.4,
+        "h": 26.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        37
+      ],
+      "cadrage_css": "45% 37%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.9,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.88,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.84,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.79,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 22.2,
+        "bruit": 0.36,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "erlaine · Dr Rollet · aul Lafargue · Rue Dr Ollier · Rue Clément Mic · Rue du 4 Août 1789 · Rue du Nord · Rue des Mûriers · Cr Tolstoï · Rue Lafontaine · Rue de",
+        "blocs": 12,
+        "surface": 26.8,
+        "details": [
+          {
+            "texte": "erlaine",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Dr Rollet",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "aul Lafargue",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Dr Ollier",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Clément Mic",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue du 4 Août 1789",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue du Nord",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue des Mûriers",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cr Tolstoï",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Lafontaine",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue de Fran",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Perso≥",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "93105524a5243624",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme droite/bas/gauche/haut"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-16.webp",
+      "nom": "expertises-droit-famille-droit-16",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 15460,
+      "transparence": false,
+      "sujet": {
+        "x": 50,
+        "y": 27.9,
+        "l": 27.9,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        64,
+        39
+      ],
+      "cadrage_css": "64% 39%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.94,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.93,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.9,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.84,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        }
+      ],
+      "qualite": {
+        "nettete": 21,
+        "bruit": 0.36,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "de Gaulle · Av. M · Rocade Charles · Chem. du Viaduc",
+        "blocs": 4,
+        "surface": 22.4,
+        "details": [
+          {
+            "texte": "de Gaulle",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. M",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rocade Charles",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Chem. du Viaduc",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8c0d2c2595652404",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme gauche/bas/haut/droite"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-17.webp",
+      "nom": "expertises-droit-famille-droit-17",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 12602,
+      "transparence": false,
+      "sujet": {
+        "x": 36.7,
+        "y": 38,
+        "l": 40.1,
+        "h": 25.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        51
+      ],
+      "cadrage_css": "58% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.94,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.93,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.92,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.87,
+          "ton": "sombre",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 12.4,
+        "bruit": 0.32,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "SAINT-CHA · Av. Pierre Ser",
+        "blocs": 2,
+        "surface": 9.3,
+        "details": [
+          {
+            "texte": "SAINT-CHA",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. Pierre Ser",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "701f41088ad02514",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-18.webp",
+      "nom": "expertises-droit-famille-droit-18",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 17120,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 20.6,
+        "l": 63.2,
+        "h": 38.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        38
+      ],
+      "cadrage_css": "42% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.84,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.81,
+          "ton": "sombre",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "haut",
+          "score": 0.76,
+          "ton": "sombre",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "gauche",
+          "score": 0.68,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 27,
+        "bruit": 0.41,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "FERRANDIÈRE · - MAISONS · NEUVES · Rue Arago · - Genas · Parc Georges · Bazin · Rue Antonin Perrin · Rue de la Poste · Bd Honoré de · Rue · Rue Louis",
+        "blocs": 12,
+        "surface": 24.1,
+        "details": [
+          {
+            "texte": "FERRANDIÈRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "- MAISONS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "NEUVES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Arago",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "- Genas",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parc Georges",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bazin",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Antonin Perrin",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue de la Poste",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bd Honoré de",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Louis",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "a4a58cc064038a24",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/droite/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-19.webp",
+      "nom": "expertises-droit-famille-droit-19",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 10866,
+      "transparence": false,
+      "sujet": {
+        "x": 8.8,
+        "y": 17.6,
+        "l": 41.2,
+        "h": 44.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        29,
+        40
+      ],
+      "cadrage_css": "29% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.97,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.95,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.83,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.75,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 22,
+        "bruit": 0.26,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "rc du clos · la murette · Rue de la Garance · Rue des Provençales",
+        "blocs": 4,
+        "surface": 17,
+        "details": [
+          {
+            "texte": "rc du clos",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "la murette",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue de la Garance",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Rue des Provençales",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2422318402280100",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme bas/droite/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-20.webp",
+      "nom": "expertises-droit-famille-droit-20",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 14286,
+      "transparence": false,
+      "sujet": {
+        "x": 27.9,
+        "y": 1.5,
+        "l": 36.8,
+        "h": 57.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        30
+      ],
+      "cadrage_css": "47% 30%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.79,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.79,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "haut",
+          "score": 0.65,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 25.9,
+        "bruit": 0.32,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "itin · • Millon · sace · GRATTE CIEL · Rue Notre Dame · toine · RÉPUBLIQ · - TOLSTO · Rue Louis Becker · ETTE GARE · ueq · Cr Tolstoï · jesse ent · Av. Marc San",
+        "blocs": 15,
+        "surface": 25.1,
+        "details": [
+          {
+            "texte": "itin",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "• Millon",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "sace",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "GRATTE CIEL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Notre Dame",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "toine",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "RÉPUBLIQ",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "- TOLSTO",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Louis Becker",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ETTE GARE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ueq",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cr Tolstoï",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "50545456524848c2",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/gauche/droite/haut"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-21.webp",
+      "nom": "expertises-droit-famille-droit-21",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 19306,
+      "transparence": false,
+      "sujet": {
+        "x": 13.2,
+        "y": 11.8,
+        "l": 54.4,
+        "h": 48.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        38,
+        33
+      ],
+      "cadrage_css": "38% 33%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.86,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "bas",
+          "score": 0.86,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.73,
+          "ton": "sombre",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 18.4,
+        "bruit": 0.4,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Rue Sainte-Anne de Baraban · Rue Antoine Charial · Rue Paul Bert · Av. Félix Faure · Rue David · Rue du Dauphiné · Rte d · Rue Feuillat",
+        "blocs": 8,
+        "surface": 40.2,
+        "details": [
+          {
+            "texte": "Rue Sainte-Anne de Baraban",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Rue Antoine Charial",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Paul Bert",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. Félix Faure",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue David",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Rue du Dauphiné",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Rte d",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Feuillat",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "081191c18991a022",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme droite/bas/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-22.webp",
+      "nom": "expertises-droit-famille-droit-22",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 21614,
+      "transparence": false,
+      "sujet": {
+        "x": 2.9,
+        "y": 13.2,
+        "l": 55.9,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        46
+      ],
+      "cadrage_css": "36% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.88,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.83,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "haut",
+          "score": 0.75,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "sombre",
+          "recouvre_sujet": 0.59
+        }
+      ],
+      "qualite": {
+        "nettete": 25.9,
+        "bruit": 0.43,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Rocad · Av. Pierre Semard · nal Av. cela croix Rouge · SIX DES · Rocade Charles de Gaulle · Av. Mazarin · Av. d",
+        "blocs": 7,
+        "surface": 75.6,
+        "details": [
+          {
+            "texte": "Rocad",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. Pierre Semard",
+            "niveau": "marque"
+          },
+          {
+            "texte": "nal Av. cela croix Rouge",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SIX DES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rocade Charles de Gaulle",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Av. Mazarin",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Av. d",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "31952521842663f0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme droite/bas/haut"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-23.webp",
+      "nom": "expertises-droit-famille-droit-23",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 11818,
+      "transparence": false,
+      "sujet": {
+        "x": 51.6,
+        "y": 28.9,
+        "l": 21.6,
+        "h": 42.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        40
+      ],
+      "cadrage_css": "58% 40%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.91,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.91,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "haut",
+          "score": 0.86,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "droite",
+          "score": 0.85,
+          "ton": "sombre",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 17,
+        "bruit": 0.25,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "e baulie · Chem. du Lavarin · Av. de Tarascon · Rocade Charles de Gaulle",
+        "blocs": 4,
+        "surface": 16.1,
+        "details": [
+          {
+            "texte": "e baulie",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Chem. du Lavarin",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. de Tarascon",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rocade Charles de Gaulle",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "3320b3a200200352",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/bas/haut/droite"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-24.webp",
+      "nom": "expertises-droit-famille-droit-24",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 13394,
+      "transparence": false,
+      "sujet": {
+        "x": 33.8,
+        "y": 13.2,
+        "l": 33.8,
+        "h": 39.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        36
+      ],
+      "cadrage_css": "52% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.95,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.9,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.87,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.83,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 17,
+        "bruit": 0.26,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Av. Monplaisir · inge · Av. M · Bd Gambetta · Av. des Deux Routes",
+        "blocs": 5,
+        "surface": 14.9,
+        "details": [
+          {
+            "texte": "Av. Monplaisir",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "inge",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. M",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bd Gambetta",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. des Deux Routes",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "85a1a03161d18203",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/droite/gauche/haut"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-25.webp",
+      "nom": "expertises-droit-famille-droit-25",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 12148,
+      "transparence": false,
+      "sujet": {
+        "x": 5.9,
+        "y": 0,
+        "l": 79.4,
+        "h": 50,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        22
+      ],
+      "cadrage_css": "53% 22%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.97,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.78,
+          "ton": "sombre",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "sombre",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 17.9,
+        "bruit": 0.21,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ère · Av. de la Cabrière · LA ROCADE · SUD ROCADE",
+        "blocs": 4,
+        "surface": 9,
+        "details": [
+          {
+            "texte": "ère",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. de la Cabrière",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LA ROCADE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SUD ROCADE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0d8d01821a030100",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-26.webp",
+      "nom": "expertises-droit-famille-droit-26",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 15148,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 23.5,
+        "l": 57.4,
+        "h": 51.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        48
+      ],
+      "cadrage_css": "41% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.86,
+          "ton": "sombre",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "gauche",
+          "score": 0.8,
+          "ton": "sombre",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.8,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.8,
+          "ton": "sombre",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 17.3,
+        "bruit": 0.3,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Av. de la Cabri · Bd Foch · Av. de la Trillade · Av. des Sources · Av. de la Reine Jeanne",
+        "blocs": 5,
+        "surface": 27.6,
+        "details": [
+          {
+            "texte": "Av. de la Cabri",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bd Foch",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. de la Trillade",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. des Sources",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Av. de la Reine Jeanne",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "12095899d3534341",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme haut/gauche/droite/bas"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-27.webp",
+      "nom": "expertises-droit-famille-droit-27",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 11112,
+      "transparence": false,
+      "sujet": {
+        "x": 54.4,
+        "y": 4.4,
+        "l": 38.2,
+        "h": 55.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        74,
+        26
+      ],
+      "cadrage_css": "74% 26%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.97,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.95,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.78,
+          "ton": "sombre",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "droite",
+          "score": 0.72,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 22.9,
+        "bruit": 0.31,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Can Marie UjiDe · Rocade Charles · Bd Pierre Boulle · de la · Gare",
+        "blocs": 5,
+        "surface": 20.8,
+        "details": [
+          {
+            "texte": "Can Marie UjiDe",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rocade Charles",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bd Pierre Boulle",
+            "niveau": "marque"
+          },
+          {
+            "texte": "de la",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Gare",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0c86401200541385",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme gauche/bas/haut/droite"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-28.webp",
+      "nom": "expertises-droit-famille-droit-28",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 24424,
+      "transparence": false,
+      "sujet": {
+        "x": 41.2,
+        "y": 14.7,
+        "l": 48.5,
+        "h": 50,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        39
+      ],
+      "cadrage_css": "62% 39%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.94,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.93,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.82,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.79,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        }
+      ],
+      "qualite": {
+        "nettete": 15.7,
+        "bruit": 0.43,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "nclar · AV. Etienne Martel: · Av. Eisenhower",
+        "blocs": 3,
+        "surface": 20.2,
+        "details": [
+          {
+            "texte": "nclar",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "AV. Etienne Martel:",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Av. Eisenhower",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "a43438331018161e",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme gauche/bas/haut/droite"
+      ]
+    },
+    {
+      "fichier": "expertises-droit-famille-droit-29.webp",
+      "nom": "expertises-droit-famille-droit-29",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 18096,
+      "transparence": false,
+      "sujet": {
+        "x": 35.3,
+        "y": 29.4,
+        "l": 51.5,
+        "h": 57.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        50
+      ],
+      "cadrage_css": "61% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.84,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.83,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.75,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "sombre",
+          "recouvre_sujet": 0.38
+        }
+      ],
+      "qualite": {
+        "nettete": 20.5,
+        "bruit": 0.39,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "UAILLE · Quai Fulchiron · Quai Tilsitt · Rue Sala · PI. Bellecour · Rue Auguste Comte · Rue Vaubecour · ien · AINAY · ton",
+        "blocs": 10,
+        "surface": 37.5,
+        "details": [
+          {
+            "texte": "UAILLE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Quai Fulchiron",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Quai Tilsitt",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Sala",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PI. Bellecour",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue Auguste Comte",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Rue Vaubecour",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ien",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "AINAY",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ton",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0c483e326969c8d0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme haut/gauche/bas/droite"
+      ]
+    },
+    {
+      "fichier": "cabinet-dnl-avocats.jpg",
+      "nom": "cabinet-dnl-avocats",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1336,
+      "ratio": "3:2",
+      "ratio_valeur": 1.497,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 409970,
+      "transparence": false,
+      "sujet": {
+        "x": 16.1,
+        "y": 10.2,
+        "l": 74.6,
+        "h": 79.9,
+        "source": "corps"
+      },
+      "visages": 3,
+      "cadrage": [
+        55,
+        32
+      ],
+      "cadrage_css": "55% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "sombre",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        }
+      ],
+      "qualite": {
+        "nettete": 35.2,
+        "bruit": 0.76,
+        "compression": 1.37,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Avocats",
+        "blocs": 1,
+        "surface": 0.1,
+        "details": [
+          {
+            "texte": "Avocats",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "6262d1d12337868c",
+      "drapeaux": [
+        "lieu",
+        "3 visages",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "cabinet-dnl-avocats-lyon.jpg",
+      "nom": "cabinet-dnl-avocats-lyon",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1336,
+      "ratio": "3:2",
+      "ratio_valeur": 1.497,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 375282,
+      "transparence": false,
+      "sujet": {
+        "x": 11.6,
+        "y": 18.8,
+        "l": 87.9,
+        "h": 81.2,
+        "source": "corps"
+      },
+      "visages": 3,
+      "cadrage": [
+        50,
+        44
+      ],
+      "cadrage_css": "50% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "moyen",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "sombre",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 24.8,
+        "bruit": 1.02,
+        "compression": 1.36,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "d1a52d2991c1c9e9",
+      "drapeaux": [
+        "lieu",
+        "3 visages"
+      ]
+    },
+    {
+      "fichier": "contact-privilegie-unique-service.jpg",
+      "nom": "contact-privilegie-unique-service",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 94992,
+      "transparence": false,
+      "sujet": {
+        "x": 50.4,
+        "y": 18.2,
+        "l": 42.9,
+        "h": 56.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        68,
+        44
+      ],
+      "cadrage_css": "68% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.97,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.73,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.67,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.54,
+          "ton": "moyen",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 7.6,
+        "bruit": 0.24,
+        "compression": 2.29,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0c1e1a5958181c0c",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme gauche/bas/haut"
+      ]
+    }
+  ]
+}

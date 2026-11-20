@@ -1,0 +1,21 @@
+{
+  "reperes": [
+    { "annee": "2009", "texte": "Anne Di Nicola prête serment à Lyon, sous le parrainage de Gisèle Halimi." },
+    { "annee": "2012", "texte": "Agathe Lucot devient avocate." },
+    { "annee": "2018", "texte": "Anne Di Nicola et Agathe Lucot fondent DNL Avocats à Lyon." },
+    { "annee": "2020", "texte": "Agathe Schiltz, stagiaire du cabinet depuis 2019, prête serment et le rejoint comme collaboratrice." },
+    { "annee": "2021", "texte": "Les deux fondatrices obtiennent leur mention de spécialisation du Conseil national des barreaux." },
+    { "annee": "2024", "texte": "Ouverture d'un cabinet secondaire à Avignon." }
+  ],
+  "engagements": [
+    { "titre": "Des tarifs justes et transparents", "texte": "Premier rendez-vous annoncé, grille indicative publiée, convention d'honoraires avant tout travail." },
+    { "titre": "Des réponses rapides", "texte": "Une organisation agile, pensée pour vous répondre vite." },
+    { "titre": "Un conseil sur mesure", "texte": "Adapté aux règles applicables comme à vos enjeux personnels et économiques." },
+    { "titre": "Une avocate référente", "texte": "Un interlocuteur privilégié tout au long de la procédure, du début à la fin." },
+    { "titre": "L'amiable quand c'est possible", "texte": "Négociation, médiation, droit collaboratif : le procès n'est pas la seule voie." }
+  ],
+  "bureaux": [
+    { "id": "lyon", "ville": "Lyon", "image": "lyon", "adresse": "90 rue Paul Bert", "cp": "69003 Lyon", "role": "Siège du cabinet" },
+    { "id": "avignon", "ville": "Avignon", "image": "avignon", "adresse": "1117 chemin du Lavarin", "cp": "84000 Avignon", "role": "Cabinet secondaire, ouvert en 2024" }
+  ]
+}

@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prendre rendez-vous · DNL Avocats</title>
+<meta name="description" content="Prenez rendez-vous avec DNL Avocats à Lyon, à Avignon ou en visio : 04 78 38 89 50, contact@dnlavocats.com, du lundi au vendredi de 9 h à 18 h.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://dnl-avocats-maquette.vercel.app/contact">
+<style>:root{--fond:#F6F2EB;--texte:#1B2420;--voile-fond:#1E3A33;--ouverture-fond:#F6F2EB;--menu-fond:#F6F2EB}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/albert-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F6F2EB">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DNL Avocats">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Prendre rendez-vous · DNL Avocats">
+<meta property="og:description" content="Prenez rendez-vous avec DNL Avocats à Lyon, à Avignon ou en visio : 04 78 38 89 50, contact@dnlavocats.com, du lundi au vendredi de 9 h à 18 h.">
+<meta property="og:url" content="https://dnl-avocats-maquette.vercel.app/contact">
+<meta property="og:image" content="https://dnl-avocats-maquette.vercel.app/assets/partage/contact-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Les trois avocates de DNL Avocats">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LegalService","name":"DNL Avocats","legalName":"DNL AVOCATS SELARL","url":"https://dnl-avocats-maquette.vercel.app/","telephone":"+33478388950","email":"contact@dnlavocats.com","description":"Cabinet d'avocates à Lyon et Avignon : droit de la famille, des personnes et du patrimoine, successions, droit de l'urbanisme et de la fonction publique.","priceRange":"Premier rendez-vous 180 € TTC","areaServed":["Lyon","Avignon"],"address":{"@type":"PostalAddress","streetAddress":"90 rue Paul Bert","postalCode":"69003","addressLocality":"Lyon","addressCountry":"FR"},"location":[{"@type":"Place","name":"DNL Avocats Lyon","address":{"@type":"PostalAddress","streetAddress":"90 rue Paul Bert","postalCode":"69003","addressLocality":"Lyon","addressCountry":"FR"}},{"@type":"Place","name":"DNL Avocats Avignon","address":{"@type":"PostalAddress","streetAddress":"1117 chemin du Lavarin","postalCode":"84000","addressLocality":"Avignon","addressCountry":"FR"}}],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"}],"employee":[{"@type":"Person","name":"Anne Di Nicola","jobTitle":"Avocate"},{"@type":"Person","name":"Agathe Lucot","jobTitle":"Avocate"},{"@type":"Person","name":"Agathe Schiltz","jobTitle":"Avocate"}],"sameAs":["https://www.facebook.com/DNLAvocats","https://www.instagram.com/dnlavocats/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><svg class="mono mono--voile" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><circle class="mono-anneau" cx="50" cy="50" r="46" pathLength="1"/><path class="mono-l" d="M25.12 63.14L15.28 63.14L15.28 62.74L16.12 62.42Q17.40 61.90 17.40 60.38L17.40 39.50Q17.40 37.90 16.12 37.46L15.28 37.14L15.28 36.74L25.84 36.74Q30.08 36.74 33.14 38.32Q36.20 39.90 37.86 42.84Q39.52 45.78 39.52 49.90Q39.52 54.10 37.72 57.06Q35.92 60.02 32.70 61.58Q29.48 63.14 25.12 63.14M23.40 37.54L23.40 62.34L25.12 62.34Q28 62.34 29.76 61.20Q31.52 60.06 32.34 57.36Q33.16 54.66 33.16 49.94Q33.16 45.22 32.34 42.52Q31.52 39.82 29.80 38.68Q28.08 37.54 25.28 37.54"/><path class="mono-l" d="M46.60 63.14L40.52 63.14L40.52 62.74L41.84 62.34Q42.56 62.14 42.88 61.56Q43.20 60.98 43.20 60.18L43.20 40.94Q42.76 39.98 42.50 39.50Q42.24 39.02 41.92 38.68Q41.60 38.34 41.04 37.82L40.36 37.14L40.36 36.74L47.44 36.74L60.72 54.86L60.72 39.78Q60.72 38.98 60.46 38.34Q60.20 37.70 59.40 37.50L58.08 37.14L58.08 36.74L63.80 36.74L63.80 37.14L62.72 37.50Q62 37.74 61.84 38.34Q61.68 38.94 61.68 39.74L61.68 63.26L59.44 63.26L44.16 42.26L44.16 60.18Q44.16 60.98 44.40 61.54Q44.64 62.10 45.40 62.34L46.60 62.74"/><path class="mono-l" d="M84.36 63.14L64.92 63.14L64.92 62.74L65.76 62.42Q66.60 62.10 66.82 61.64Q67.04 61.18 67.04 60.38L67.04 39.50Q67.04 38.70 66.80 38.22Q66.56 37.74 65.76 37.46L64.92 37.14L64.92 36.74L75.12 36.74L75.12 37.14L74.40 37.46Q73.64 37.74 73.36 38.24Q73.08 38.74 73.08 39.54L73.08 62.34L79.24 62.34Q80.72 62.34 81.42 61.62Q82.12 60.90 82.76 59.54L84.32 56.18L84.72 56.18"/></svg><span data-voile-libelle>Contact</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="mono mono--intro" viewBox="0 0 100 100" aria-hidden="true" focusable="false" data-ouverture-objet><circle class="mono-anneau" cx="50" cy="50" r="46" pathLength="1"/><path class="mono-l" d="M25.12 63.14L15.28 63.14L15.28 62.74L16.12 62.42Q17.40 61.90 17.40 60.38L17.40 39.50Q17.40 37.90 16.12 37.46L15.28 37.14L15.28 36.74L25.84 36.74Q30.08 36.74 33.14 38.32Q36.20 39.90 37.86 42.84Q39.52 45.78 39.52 49.90Q39.52 54.10 37.72 57.06Q35.92 60.02 32.70 61.58Q29.48 63.14 25.12 63.14M23.40 37.54L23.40 62.34L25.12 62.34Q28 62.34 29.76 61.20Q31.52 60.06 32.34 57.36Q33.16 54.66 33.16 49.94Q33.16 45.22 32.34 42.52Q31.52 39.82 29.80 38.68Q28.08 37.54 25.28 37.54"/><path class="mono-l" d="M46.60 63.14L40.52 63.14L40.52 62.74L41.84 62.34Q42.56 62.14 42.88 61.56Q43.20 60.98 43.20 60.18L43.20 40.94Q42.76 39.98 42.50 39.50Q42.24 39.02 41.92 38.68Q41.60 38.34 41.04 37.82L40.36 37.14L40.36 36.74L47.44 36.74L60.72 54.86L60.72 39.78Q60.72 38.98 60.46 38.34Q60.20 37.70 59.40 37.50L58.08 37.14L58.08 36.74L63.80 36.74L63.80 37.14L62.72 37.50Q62 37.74 61.84 38.34Q61.68 38.94 61.68 39.74L61.68 63.26L59.44 63.26L44.16 42.26L44.16 60.18Q44.16 60.98 44.40 61.54Q44.64 62.10 45.40 62.34L46.60 62.74"/><path class="mono-l" d="M84.36 63.14L64.92 63.14L64.92 62.74L65.76 62.42Q66.60 62.10 66.82 61.64Q67.04 61.18 67.04 60.38L67.04 39.50Q67.04 38.70 66.80 38.22Q66.56 37.74 65.76 37.46L64.92 37.14L64.92 36.74L75.12 36.74L75.12 37.14L74.40 37.46Q73.64 37.74 73.36 38.24Q73.08 38.74 73.08 39.54L73.08 62.34L79.24 62.34Q80.72 62.34 81.42 61.62Q82.12 60.90 82.76 59.54L84.32 56.18L84.72 56.18"/></svg>
+  <p class="ouverture-ligne">Avocates · Lyon &amp; Avignon</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <svg class="mono mono--entete" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><circle class="mono-anneau" cx="50" cy="50" r="46" pathLength="1"/><path class="mono-l" d="M25.12 63.14L15.28 63.14L15.28 62.74L16.12 62.42Q17.40 61.90 17.40 60.38L17.40 39.50Q17.40 37.90 16.12 37.46L15.28 37.14L15.28 36.74L25.84 36.74Q30.08 36.74 33.14 38.32Q36.20 39.90 37.86 42.84Q39.52 45.78 39.52 49.90Q39.52 54.10 37.72 57.06Q35.92 60.02 32.70 61.58Q29.48 63.14 25.12 63.14M23.40 37.54L23.40 62.34L25.12 62.34Q28 62.34 29.76 61.20Q31.52 60.06 32.34 57.36Q33.16 54.66 33.16 49.94Q33.16 45.22 32.34 42.52Q31.52 39.82 29.80 38.68Q28.08 37.54 25.28 37.54"/><path class="mono-l" d="M46.60 63.14L40.52 63.14L40.52 62.74L41.84 62.34Q42.56 62.14 42.88 61.56Q43.20 60.98 43.20 60.18L43.20 40.94Q42.76 39.98 42.50 39.50Q42.24 39.02 41.92 38.68Q41.60 38.34 41.04 37.82L40.36 37.14L40.36 36.74L47.44 36.74L60.72 54.86L60.72 39.78Q60.72 38.98 60.46 38.34Q60.20 37.70 59.40 37.50L58.08 37.14L58.08 36.74L63.80 36.74L63.80 37.14L62.72 37.50Q62 37.74 61.84 38.34Q61.68 38.94 61.68 39.74L61.68 63.26L59.44 63.26L44.16 42.26L44.16 60.18Q44.16 60.98 44.40 61.54Q44.64 62.10 45.40 62.34L46.60 62.74"/><path class="mono-l" d="M84.36 63.14L64.92 63.14L64.92 62.74L65.76 62.42Q66.60 62.10 66.82 61.64Q67.04 61.18 67.04 60.38L67.04 39.50Q67.04 38.70 66.80 38.22Q66.56 37.74 65.76 37.46L64.92 37.14L64.92 36.74L75.12 36.74L75.12 37.14L74.40 37.46Q73.64 37.74 73.36 38.24Q73.08 38.74 73.08 39.54L73.08 62.34L79.24 62.34Q80.72 62.34 81.42 61.62Q82.12 60.90 82.76 59.54L84.32 56.18L84.72 56.18"/></svg><span class="entete-nom">DNL <em>Avocats</em></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/cabinet" data-libelle="Le cabinet">Le cabinet</a></li><li><a href="/domaines" data-libelle="Domaines">Domaines</a></li><li><a href="/honoraires" data-libelle="Honoraires">Honoraires</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact" data-libelle="Contact">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/cabinet" class="menu-lien" data-libelle="Le cabinet">Le cabinet</a></li><li style="--i:2"><a href="/domaines" class="menu-lien" data-libelle="Domaines">Domaines</a></li><li style="--i:3"><a href="/honoraires" class="menu-lien" data-libelle="Honoraires">Honoraires</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33478388950">Appeler 04 78 38 89 50</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="rdv" id="debut">
+  <div class="conteneur rdv-grille">
+    <div class="rdv-cote">
+      <p class="surtitre o-suite">Contact</p>
+      <h1><span class="ligne-masque"><span class="page-ligne">Prenons rendez-vous</span></span></h1>
+      <p class="rdv-intro o-suite masque-petit">Dites-nous en quelques mots ce qui vous amène : le cabinet vous recontacte pour fixer le premier rendez-vous.</p>
+      <p class="rdv-tel o-suite"><a href="tel:+33478388950" data-action-principale>04 78 38 89 50</a><span data-info-cle>Du lundi au vendredi, de 9 h à 18 h</span></p>
+      <p class="o-suite"><a class="rdv-mail" href="mailto:contact@dnlavocats.com">contact@dnlavocats.com</a></p>
+      <div class="o-suite"><p class="statut" data-statut><span class="statut-point" aria-hidden="true"></span><span data-statut-texte>Du lundi au vendredi, de 9 h à 18 h, sur rendez-vous, au cabinet ou en visio.</span></p></div>
+      <div class="trio o-suite" data-effet="trio" data-iris-centre>
+        <figure class="media trio-medaillon" style="--cadrage:50% 24%">
+  <picture>
+    <img src="/assets/images/anne-di-nicola-960.webp" srcset="/assets/images/anne-di-nicola-480.webp 480w, /assets/images/anne-di-nicola-640.webp 640w, /assets/images/anne-di-nicola-960.webp 960w" sizes="96px" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media trio-medaillon" style="--cadrage:50% 24%">
+  <picture>
+    <img src="/assets/images/agathe-lucot-960.webp" srcset="/assets/images/agathe-lucot-480.webp 480w, /assets/images/agathe-lucot-640.webp 640w, /assets/images/agathe-lucot-960.webp 960w" sizes="96px" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media trio-medaillon" style="--cadrage:50% 24%">
+  <picture>
+    <img src="/assets/images/agathe-schiltz-960.webp" srcset="/assets/images/agathe-schiltz-480.webp 480w, /assets/images/agathe-schiltz-640.webp 640w, /assets/images/agathe-schiltz-960.webp 960w" sizes="96px" alt="" width="960" height="1280" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="trio-noms">Anne Di Nicola, Agathe Lucot et Agathe Schiltz</p>
+      </div>
+    </div>
+    <div class="rdv-formulaire" id="rendez-vous">
+      <div class="fpe" data-module="formulaire-par-etapes">
+        <div class="fpe__carton">
+          <form class="fpe__form" action="#" method="post" novalidate>
+            <div class="fpe__progression">
+              <ol class="fpe__reperes" aria-label="Progression"></ol>
+              <div class="fpe__barre" aria-hidden="true"><span></span></div>
+              <p class="fpe__etat" aria-live="polite"></p>
+            </div>
+            <fieldset class="fpe__etape" data-etape="Votre situation">
+              <legend class="fpe__legende"><h2 class="fpe__titre">Votre demande concerne…</h2></legend>
+              <div class="fpe__groupe fpe__cartes" data-libelle="Votre situation">
+                <label class="fpe__carte"><input type="radio" name="sujet" value="famille" required><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 1 0 0-.1M22 15a3 3 0 1 0 0-.1M4 27c0-5 3-8 6-8s6 3 6 8M17 27c0-4 2-6 5-6s5 2 5 6"/></svg><span class="fpe__carte-titre">Famille et personnes</span><span class="fpe__carte-texte">Enfants, Divorce et séparation, Droit des personnes</span></label><label class="fpe__carte"><input type="radio" name="sujet" value="successions"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="16" r="5"/><path d="M16 16h12M24 16v4M28 16v3"/></svg><span class="fpe__carte-titre">Successions et patrimoine</span><span class="fpe__carte-texte">Successions, Indivision, Régime matrimonial</span></label><label class="fpe__carte"><input type="radio" name="sujet" value="urbanisme"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 27h24M7 27V15l7-5 7 5v12M12 27v-6h4v6M24 27V9"/><path d="M24 9l4 2"/></svg><span class="fpe__carte-titre">Urbanisme</span><span class="fpe__carte-texte">Avant de construire, Contester, Travaux sans autorisation</span></label><label class="fpe__carte"><input type="radio" name="sujet" value="fonction-publique"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l12-6 12 6M6 12v13M11 12v13M16 12v13M21 12v13M26 12v13M3 27h26"/></svg><span class="fpe__carte-titre">Fonction publique</span><span class="fpe__carte-texte">Carrière, Discipline, Santé et protection, Fin de fonctions</span></label>
+                <label class="fpe__carte"><input type="radio" name="sujet" value="autre"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="11"/><path d="M13 13a3 3 0 1 1 4 3c-1 .5-1 1-1 2.5M16 22v.5"/></svg><span class="fpe__carte-titre">Une autre question</span><span class="fpe__carte-texte">Vous ne savez pas dans quelle case entrer : décrivez simplement votre situation.</span></label>
+              </div>
+            </fieldset>
+            <fieldset class="fpe__etape" data-etape="Le lieu">
+              <legend class="fpe__legende"><h2 class="fpe__titre">Où souhaitez-vous être reçu ?</h2></legend>
+              <div class="fpe__groupe fpe__cartes" data-libelle="Le lieu">
+                <label class="fpe__carte"><input type="radio" name="lieu" value="lyon" required><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 28s-9-8-9-15a9 9 0 0 1 18 0c0 7-9 15-9 15z"/><circle cx="16" cy="13" r="3"/></svg><span class="fpe__carte-titre">Lyon</span><span class="fpe__carte-texte">90 rue Paul Bert, 69003</span></label>
+                <label class="fpe__carte"><input type="radio" name="lieu" value="avignon"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 28s-9-8-9-15a9 9 0 0 1 18 0c0 7-9 15-9 15z"/><circle cx="16" cy="13" r="3"/></svg><span class="fpe__carte-titre">Avignon</span><span class="fpe__carte-texte">1117 chemin du Lavarin, 84000</span></label>
+                <label class="fpe__carte"><input type="radio" name="lieu" value="visio"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="9" width="17" height="14" rx="2"/><path d="M21 14l7-4v12l-7-4"/></svg><span class="fpe__carte-titre">En visio</span><span class="fpe__carte-texte">Depuis chez vous, partout en France</span></label>
+              </div>
+            </fieldset>
+            <fieldset class="fpe__etape" data-etape="Coordonnées">
+              <legend class="fpe__legende"><h2 class="fpe__titre">Comment vous joindre ?</h2></legend>
+              <div class="fpe__grille">
+                <div class="fpe__champ"><label for="f-prenom">Prénom <i aria-hidden="true">*</i></label><input id="f-prenom" name="prenom" autocomplete="given-name" required></div>
+                <div class="fpe__champ"><label for="f-nom">Nom <i aria-hidden="true">*</i></label><input id="f-nom" name="nom" autocomplete="family-name" required></div>
+                <div class="fpe__champ"><label for="f-email">E-mail <i aria-hidden="true">*</i></label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+                <div class="fpe__champ"><label for="f-tel">Téléphone</label><input id="f-tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" pattern="[0-9 +().\-]{8,20}"></div>
+              </div>
+              <div class="fpe__champ"><label for="f-message">En quelques mots, votre situation <i aria-hidden="true">*</i></label><textarea id="f-message" name="message" rows="4" minlength="10" required aria-describedby="f-message-aide"></textarea><p class="fpe__aide" id="f-message-aide">Inutile de tout détailler : quelques lignes suffisent.</p></div>
+              <label class="fpe__case"><input type="checkbox" name="accord" value="oui" required data-libelle="Accord" data-hors-recap><span class="fpe__choix-texte">J&#39;accepte que ces informations servent uniquement à répondre à ma demande. <i aria-hidden="true">*</i></span></label>
+              <p class="fpe__aide">Les champs marqués d&#39;un astérisque sont obligatoires.</p>
+              <p class="mention-donnees">Vos données servent seulement à répondre à votre demande et ne sont transmises à personne. Politique de confidentialité : à compléter.</p>
+            </fieldset>
+            <fieldset class="fpe__etape" data-etape="Récapitulatif" data-recap>
+              <legend class="fpe__legende"><h2 class="fpe__titre">Tout est juste ?</h2></legend>
+              <div class="fpe__recap"><p>Le récapitulatif de vos réponses s&#39;affiche ici.</p></div>
+            </fieldset>
+            <div class="fpe__nav">
+              <button class="fpe__bouton fpe__bouton--ligne" type="button" data-precedent>Retour</button>
+              <button class="fpe__bouton" type="button" data-suivant data-retour="Revenir au récapitulatif">Continuer</button>
+              <button class="fpe__bouton" type="submit">Envoyer la demande</button>
+            </div>
+          </form>
+          <div class="fpe__fin" hidden>
+            <svg class="fpe__coche" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><path d="M20 33l8 8 16-17"/></svg>
+            <h2>Merci, votre demande est prête.</h2>
+            <p data-resume></p>
+            <p>Démonstration : rien n&#39;a été envoyé. Sur le site en ligne, le cabinet recevrait votre demande et vous recontacterait.</p>
+            <div class="fpe__fin-actions"><button class="fpe__bouton fpe__bouton--ligne" type="button" data-recommencer>Nouvelle demande</button></div>
+          </div>
+        </div>
+        <p class="rdv-simule">Démonstration : rien n&#39;est envoyé.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="adresses" id="bureaux" aria-labelledby="adresses-titre">
+  <div class="conteneur">
+    <p class="surtitre" data-anime>Nos bureaux</p>
+    <h2 id="adresses-titre" data-anime="lignes">Deux adresses, un même numéro</h2>
+    <p class="adresses-intro" data-anime>Les rendez-vous ont lieu au cabinet de Lyon, au cabinet d&#39;Avignon ou en visio. Un seul numéro pour les deux : 04 78 38 89 50.</p>
+    <div class="adresses-grille" data-anime="cascade">
+      <article class="adresse">
+        <figure class="media adresse-media" data-fx="parallaxe" data-fx-force="8" style="--cadrage:45% 45%">
+  <picture>
+    <img src="/assets/images/lyon-1200.webp" srcset="/assets/images/lyon-480.webp 480w, /assets/images/lyon-800.webp 800w, /assets/images/lyon-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 50vw" alt="Lyon, les quais de Saône et la colline de Fourvière" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="adresse-texte"><h3>Lyon</h3><p class="bureau-role">Siège du cabinet</p><p>90 rue Paul Bert<br>69003 Lyon</p><p><a class="lien-tel" href="tel:+33478388950">04 78 38 89 50</a></p></div>
+      </article><article class="adresse">
+        <figure class="media adresse-media" data-fx="parallaxe" data-fx-force="8" style="--cadrage:48% 57%">
+  <picture>
+    <img src="/assets/images/avignon-1200.webp" srcset="/assets/images/avignon-480.webp 480w, /assets/images/avignon-800.webp 800w, /assets/images/avignon-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 50vw" alt="Avignon, le pont Saint-Bénezet et le palais des Papes au bord du Rhône" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="adresse-texte"><h3>Avignon</h3><p class="bureau-role">Cabinet secondaire, ouvert en 2024</p><p>1117 chemin du Lavarin<br>84000 Avignon</p><p><a class="lien-tel" href="tel:+33478388950">04 78 38 89 50</a></p></div>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><svg class="mono mono--pied" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><circle class="mono-anneau" cx="50" cy="50" r="46" pathLength="1"/><path class="mono-l" d="M25.12 63.14L15.28 63.14L15.28 62.74L16.12 62.42Q17.40 61.90 17.40 60.38L17.40 39.50Q17.40 37.90 16.12 37.46L15.28 37.14L15.28 36.74L25.84 36.74Q30.08 36.74 33.14 38.32Q36.20 39.90 37.86 42.84Q39.52 45.78 39.52 49.90Q39.52 54.10 37.72 57.06Q35.92 60.02 32.70 61.58Q29.48 63.14 25.12 63.14M23.40 37.54L23.40 62.34L25.12 62.34Q28 62.34 29.76 61.20Q31.52 60.06 32.34 57.36Q33.16 54.66 33.16 49.94Q33.16 45.22 32.34 42.52Q31.52 39.82 29.80 38.68Q28.08 37.54 25.28 37.54"/><path class="mono-l" d="M46.60 63.14L40.52 63.14L40.52 62.74L41.84 62.34Q42.56 62.14 42.88 61.56Q43.20 60.98 43.20 60.18L43.20 40.94Q42.76 39.98 42.50 39.50Q42.24 39.02 41.92 38.68Q41.60 38.34 41.04 37.82L40.36 37.14L40.36 36.74L47.44 36.74L60.72 54.86L60.72 39.78Q60.72 38.98 60.46 38.34Q60.20 37.70 59.40 37.50L58.08 37.14L58.08 36.74L63.80 36.74L63.80 37.14L62.72 37.50Q62 37.74 61.84 38.34Q61.68 38.94 61.68 39.74L61.68 63.26L59.44 63.26L44.16 42.26L44.16 60.18Q44.16 60.98 44.40 61.54Q44.64 62.10 45.40 62.34L46.60 62.74"/><path class="mono-l" d="M84.36 63.14L64.92 63.14L64.92 62.74L65.76 62.42Q66.60 62.10 66.82 61.64Q67.04 61.18 67.04 60.38L67.04 39.50Q67.04 38.70 66.80 38.22Q66.56 37.74 65.76 37.46L64.92 37.14L64.92 36.74L75.12 36.74L75.12 37.14L74.40 37.46Q73.64 37.74 73.36 38.24Q73.08 38.74 73.08 39.54L73.08 62.34L79.24 62.34Q80.72 62.34 81.42 61.62Q82.12 60.90 82.76 59.54L84.32 56.18L84.72 56.18"/></svg><span>DNL <em>Avocats</em></span></p>
+      <p>Droit de la famille, des personnes et du patrimoine, droit de l&#39;urbanisme et de la fonction publique.</p>
+      <ul class="pied-reseaux" aria-label="Le cabinet sur les réseaux"><li><a href="https://www.facebook.com/DNLAvocats" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.instagram.com/dnlavocats/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li></ul>
+    </div>
+    <div>
+      <p class="pied-titre">Nos bureaux</p>
+      <p><strong>Lyon</strong><br>90 rue Paul Bert<br>69003 Lyon</p><p><strong>Avignon</strong><br>1117 chemin du Lavarin<br>84000 Avignon</p>
+    </div>
+    <div>
+      <p class="pied-titre">Horaires</p>
+      <p>Du lundi au vendredi, de 9 h à 18 h, sur rendez-vous, au cabinet ou en visio.</p>
+      <p><a href="tel:+33478388950">04 78 38 89 50</a><br><a href="mailto:contact@dnlavocats.com">contact@dnlavocats.com</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/cabinet" data-libelle="Le cabinet">Le cabinet</a></li><li><a href="/domaines" data-libelle="Domaines">Domaines</a></li><li><a href="/honoraires" data-libelle="Honoraires">Honoraires</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales · à compléter</p>
+    <p>Politique de confidentialité · à compléter</p>
+    <p>Maquette de démonstration : les formulaires sont simulés, rien n&#39;est envoyé.</p>
+    <p>© 2026 DNL Avocats</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33478388950">Appeler</a>
+  <a class="bouton" href="/contact" data-libelle="Contact">Prendre rendez-vous</a>
+</div>
+</body>
+</html>

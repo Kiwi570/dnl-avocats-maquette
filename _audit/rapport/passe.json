@@ -1,0 +1,16 @@
+{
+ "id": "20261120-190256-complet-cible-partiel",
+ "date": "2026-11-20T19:06:00.035Z",
+ "niveau": "complet",
+ "pages": "/,/cabinet,/honoraires",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 4,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

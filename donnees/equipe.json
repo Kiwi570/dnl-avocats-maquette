@@ -1,0 +1,46 @@
+[
+  {
+    "id": "anne-di-nicola",
+    "nom": "Anne Di Nicola",
+    "court": "Me Di Nicola",
+    "image": "anne-di-nicola",
+    "depuis": "Avocate depuis 2009 · cofondatrice",
+    "domaine": "Droit public : urbanisme et fonction publique",
+    "mention": "Mention de spécialisation en droit public (CNB, 2021)",
+    "parcours": [
+      "Prête serment à Lyon en 2009, sous le parrainage de Gisèle Halimi.",
+      "Exerce d'abord dans le département droit de l'urbanisme d'un grand cabinet lyonnais, puis crée son propre cabinet.",
+      "Membre de la commission droit public du barreau de Lyon, elle est à l'origine de la création de la même commission au barreau d'Avignon.",
+      "Cofonde DNL Avocats avec Agathe Lucot en 2018."
+    ]
+  },
+  {
+    "id": "agathe-lucot",
+    "nom": "Agathe Lucot",
+    "court": "Me Lucot",
+    "image": "agathe-lucot",
+    "depuis": "Avocate depuis 2012 · cofondatrice",
+    "domaine": "Droit des personnes, de la famille et du patrimoine",
+    "mention": "Certificat de spécialisation en droit de la famille, des personnes et de leur patrimoine (CNB, 2021)",
+    "parcours": [
+      "Débute dans un cabinet de droit de la famille tourné vers la défense des victimes de violences intrafamiliales.",
+      "Rejoint en 2014 un cabinet d'affaires, où elle gère le pôle famille : liquidations de régimes matrimoniaux et successions.",
+      "Membre de la commission juridique de l'association des parents et futurs parents gays et lesbiens (APGL).",
+      "Cofonde DNL Avocats avec Anne Di Nicola en 2018."
+    ]
+  },
+  {
+    "id": "agathe-schiltz",
+    "nom": "Agathe Schiltz",
+    "court": "Me Schiltz",
+    "image": "agathe-schiltz",
+    "depuis": "Avocate depuis 2020 · collaboratrice",
+    "domaine": "Droit public et droit de la famille",
+    "mention": "Devant les juridictions administratives et judiciaires",
+    "parcours": [
+      "Parcours universitaire tourné vers le droit public des affaires.",
+      "Rejoint DNL Avocats comme stagiaire en 2019, puis comme avocate collaboratrice après sa prestation de serment en 2020.",
+      "Intervient en droit public, notamment en fonction publique, et en droit des personnes, de la famille et du patrimoine."
+    ]
+  }
+]

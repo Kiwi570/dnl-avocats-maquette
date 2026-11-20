@@ -1,0 +1,182 @@
+{
+  "avertissements": [
+    "logo pris dans assets/images (logo.svg) : aucun logo dans donnees/images.json, vérifier que ce n'est pas celui du socle"
+  ],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "equipe-1280.webp",
+      "poids": 71918,
+      "sujet": {
+        "x": 14,
+        "y": 9,
+        "l": 1184,
+        "h": 421
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 488,
+          "l": 84,
+          "h": 84
+        },
+        {
+          "x": 180,
+          "y": 482,
+          "l": 826,
+          "h": 54
+        },
+        {
+          "x": 180,
+          "y": 542,
+          "l": 826,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "cabinet",
+      "langue": "fr",
+      "fichier": "assets/partage/cabinet-fr.jpg",
+      "gabarit": "droite",
+      "image": "table-1280.webp",
+      "poids": 72188,
+      "sujet": {
+        "x": 600,
+        "y": 64,
+        "l": 600,
+        "h": 505
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 202,
+          "l": 480,
+          "h": 258
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "equipe-1280.webp",
+      "poids": 67188,
+      "sujet": {
+        "x": 14,
+        "y": 9,
+        "l": 1184,
+        "h": 421
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 488,
+          "l": 84,
+          "h": 84
+        },
+        {
+          "x": 180,
+          "y": 482,
+          "l": 660,
+          "h": 54
+        },
+        {
+          "x": 180,
+          "y": 542,
+          "l": 660,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "domaines",
+      "langue": "fr",
+      "fichier": "assets/partage/domaines-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/domaines-ouverture-1280.webp",
+      "poids": 63637,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "honoraires",
+      "langue": "fr",
+      "fichier": "assets/partage/honoraires-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/honoraires-table-1100.webp",
+      "poids": 66488,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 602
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+ "id": "20261120-185448-standard-cible-partiel",
+ "date": "2026-11-20T18:55:35.406Z",
+ "niveau": "standard",
+ "pages": "/cabinet,/honoraires",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 4,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

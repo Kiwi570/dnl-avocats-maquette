@@ -1,0 +1,1235 @@
+{
+  "equipe": {
+    "nom": "equipe",
+    "source": "recu/cabinet-dnl-avocats-lyon.jpg",
+    "role": "ouverture",
+    "alt": "Anne Di Nicola, Agathe Schiltz et Agathe Lucot, souriantes, devant le mur du cabinet de Lyon orné d'une silhouette de la ville",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "be0ad9e3bfeb0b5b",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      960,
+      1280,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 1.2,
+      "y": 18.8,
+      "l": 98.7,
+      "h": 81.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 210,
+      "top": 0,
+      "width": 1781,
+      "height": 1336,
+      "source": [
+        2000,
+        1336
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "equipe-640.webp",
+      "equipe-960.webp",
+      "equipe-1280.webp",
+      "equipe-1600.webp"
+    ],
+    "poids": {
+      "equipe-640.webp": 17696,
+      "equipe-960.webp": 32160,
+      "equipe-1280.webp": 53904,
+      "equipe-1600.webp": 85310
+    },
+    "media": "c.media({ nom: 'equipe', alt: \"Anne Di Nicola, Agathe Schiltz et Agathe Lucot, souriantes, devant le mur du cabinet de Lyon orné d'une silhouette de la ville\", cadrage: '50% 48%', sizes: '100vw', priorite: true })"
+  },
+  "table": {
+    "nom": "table",
+    "source": "recu/cabinet-dnl-avocats.jpg",
+    "role": "ouverture",
+    "alt": "Les trois avocates en réunion autour de la table ronde en chêne du cabinet, ordinateurs ouverts",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "540e09fb9cc6def4",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "55% 45%",
+    "sujet": {
+      "x": 16.1,
+      "y": 10.2,
+      "l": 74.6,
+      "h": 80.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.48,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.3,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1336
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "table-640.webp",
+      "table-1280.webp",
+      "table-1920.webp"
+    ],
+    "poids": {
+      "table-640.webp": 25594,
+      "table-1280.webp": 72350,
+      "table-1920.webp": 136182
+    },
+    "media": "c.media({ nom: 'table', alt: \"Les trois avocates en réunion autour de la table ronde en chêne du cabinet, ordinateurs ouverts\", cadrage: '55% 45%', sizes: '100vw', priorite: true })"
+  },
+  "anne-di-nicola": {
+    "nom": "anne-di-nicola",
+    "source": "recu/anne-di-nicola-cabinet.jpg",
+    "role": "portrait",
+    "alt": "Portrait de Maître Anne Di Nicola, chemise bleu ciel, devant une fenêtre du cabinet",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f06a86e6bdb1e401",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "52% 34%",
+    "sujet": {
+      "x": 29,
+      "y": 9.8,
+      "l": 50.4,
+      "h": 49.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1336,
+      "height": 1781,
+      "source": [
+        1336,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "anne-di-nicola-480.webp",
+      "anne-di-nicola-640.webp",
+      "anne-di-nicola-960.webp"
+    ],
+    "poids": {
+      "anne-di-nicola-480.webp": 28184,
+      "anne-di-nicola-640.webp": 42410,
+      "anne-di-nicola-960.webp": 78598
+    },
+    "media": "c.media({ nom: 'anne-di-nicola', alt: \"Portrait de Maître Anne Di Nicola, chemise bleu ciel, devant une fenêtre du cabinet\", cadrage: '52% 34%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '3 / 4' })"
+  },
+  "agathe-lucot": {
+    "nom": "agathe-lucot",
+    "source": "recu/agathe-lucot-cabinet-dnl.jpg",
+    "role": "portrait",
+    "alt": "Portrait de Maître Agathe Lucot, chemisier vert sapin, assise dans le cabinet",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "4bb3ec122420ae7f",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "53% 34%",
+    "sujet": {
+      "x": 23.6,
+      "y": 0,
+      "l": 58.7,
+      "h": 57.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.57,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.49,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1336,
+      "height": 1781,
+      "source": [
+        1336,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "agathe-lucot-480.webp",
+      "agathe-lucot-640.webp",
+      "agathe-lucot-960.webp"
+    ],
+    "poids": {
+      "agathe-lucot-480.webp": 13782,
+      "agathe-lucot-640.webp": 20922,
+      "agathe-lucot-960.webp": 41394
+    },
+    "media": "c.media({ nom: 'agathe-lucot', alt: \"Portrait de Maître Agathe Lucot, chemisier vert sapin, assise dans le cabinet\", cadrage: '53% 34%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '3 / 4' })"
+  },
+  "agathe-schiltz": {
+    "nom": "agathe-schiltz",
+    "source": "recu/agathe-schiltz-cabinet-dnl.jpg",
+    "role": "portrait",
+    "alt": "Portrait de Maître Agathe Schiltz, chemise blanche, bras croisés, devant la bibliothèque du cabinet",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d66c960053dc75b1",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 34%",
+    "sujet": {
+      "x": 29.3,
+      "y": 12.2,
+      "l": 39.8,
+      "h": 39.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.57,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.4,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1336,
+      "height": 1781,
+      "source": [
+        1336,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "agathe-schiltz-480.webp",
+      "agathe-schiltz-640.webp",
+      "agathe-schiltz-960.webp"
+    ],
+    "poids": {
+      "agathe-schiltz-480.webp": 23850,
+      "agathe-schiltz-640.webp": 36398,
+      "agathe-schiltz-960.webp": 69014
+    },
+    "media": "c.media({ nom: 'agathe-schiltz', alt: \"Portrait de Maître Agathe Schiltz, chemise blanche, bras croisés, devant la bibliothèque du cabinet\", cadrage: '50% 34%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '3 / 4' })"
+  },
+  "lyon": {
+    "nom": "lyon",
+    "source": "recu/dnlavocats-lyon.jpg",
+    "role": "vignette",
+    "alt": "Lyon, les quais de Saône et la colline de Fourvière",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "eeea807a5c271289",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "45% 45%",
+    "sujet": {
+      "x": 33.8,
+      "y": 39.7,
+      "l": 25,
+      "h": 22.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.85,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "lyon-480.webp",
+      "lyon-800.webp",
+      "lyon-1200.webp"
+    ],
+    "poids": {
+      "lyon-480.webp": 22524,
+      "lyon-800.webp": 62856,
+      "lyon-1200.webp": 144824
+    },
+    "media": "c.media({ nom: 'lyon', alt: \"Lyon, les quais de Saône et la colline de Fourvière\", cadrage: '45% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "avignon": {
+    "nom": "avignon",
+    "source": "recu/avignon-cabinet-avocats-dnl.jpg",
+    "role": "vignette",
+    "alt": "Avignon, le pont Saint-Bénezet et le palais des Papes au bord du Rhône",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6c062ea1ffa90574",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "48% 57%",
+    "sujet": {
+      "x": 8.4,
+      "y": 48.4,
+      "l": 62.1,
+      "h": 31.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.51,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.47,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.3,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 168,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1501
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "avignon-480.webp",
+      "avignon-800.webp",
+      "avignon-1200.webp"
+    ],
+    "poids": {
+      "avignon-480.webp": 23414,
+      "avignon-800.webp": 74064,
+      "avignon-1200.webp": 196066
+    },
+    "media": "c.media({ nom: 'avignon', alt: \"Avignon, le pont Saint-Bénezet et le palais des Papes au bord du Rhône\", cadrage: '48% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/accueil-famille": {
+    "nom": "grok/accueil-famille",
+    "source": "recu/grok/accueil-famille.jpg",
+    "role": "section-fond",
+    "alt": "Table de cuisine familiale au matin, deux tasses et un dessin aux crayons",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "850cc6d7373a6475",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "39% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 85.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.64,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1625,
+      "source": [
+        1300,
+        1937
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-famille-640.webp",
+      "grok/accueil-famille-960.webp",
+      "grok/accueil-famille-1200.webp"
+    ],
+    "poids": {
+      "grok/accueil-famille-640.webp": 41212,
+      "grok/accueil-famille-960.webp": 68776,
+      "grok/accueil-famille-1200.webp": 91100
+    },
+    "media": "c.media({ nom: 'grok/accueil-famille', alt: \"Table de cuisine familiale au matin, deux tasses et un dessin aux crayons\", cadrage: '39% 46%', sizes: '100vw' })"
+  },
+  "grok/accueil-public": {
+    "nom": "grok/accueil-public",
+    "source": "recu/grok/accueil-public.jpg",
+    "role": "section-fond",
+    "alt": "Façade claire d'un bâtiment public vue depuis une place plantée de platanes",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "c8ad1cc39db11e77",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      960,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 36%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 54,
+      "width": 1300,
+      "height": 1625,
+      "source": [
+        1300,
+        1937
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-public-640.webp",
+      "grok/accueil-public-960.webp",
+      "grok/accueil-public-1200.webp"
+    ],
+    "poids": {
+      "grok/accueil-public-640.webp": 86488,
+      "grok/accueil-public-960.webp": 145572,
+      "grok/accueil-public-1200.webp": 186882
+    },
+    "media": "c.media({ nom: 'grok/accueil-public', alt: \"Façade claire d'un bâtiment public vue depuis une place plantée de platanes\", cadrage: '50% 36%', sizes: '100vw' })"
+  },
+  "grok/accueil-appel": {
+    "nom": "grok/accueil-appel",
+    "source": "recu/grok/accueil-appel.jpg",
+    "role": "galerie",
+    "alt": "Table ronde en chêne et chaises bleu marine dans une pièce claire",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "ce5eb416f7529113",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 252,
+      "top": 0,
+      "width": 1098,
+      "height": 1098,
+      "source": [
+        1635,
+        1098
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-appel-480.webp",
+      "grok/accueil-appel-800.webp",
+      "grok/accueil-appel-1100.webp"
+    ],
+    "poids": {
+      "grok/accueil-appel-480.webp": 22252,
+      "grok/accueil-appel-800.webp": 46690,
+      "grok/accueil-appel-1100.webp": 66702
+    },
+    "media": "c.media({ nom: 'grok/accueil-appel', alt: \"Table ronde en chêne et chaises bleu marine dans une pièce claire\", cadrage: '50% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "grok/domaines-ouverture": {
+    "nom": "grok/domaines-ouverture",
+    "source": "recu/grok/domaines-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Toits de tuiles d'une ville du sud-est au soleil couchant, une grue au loin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "58085f1f7e853067",
+    "ratio": "21:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "49% 42%"
+    },
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 122,
+      "width": 1635,
+      "height": 701,
+      "source": [
+        1635,
+        1098
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1635 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/domaines-ouverture-640.webp",
+      "grok/domaines-ouverture-1280.webp",
+      "grok/domaines-ouverture-1920.webp",
+      "grok/domaines-ouverture-mobile-640.webp",
+      "grok/domaines-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/domaines-ouverture-640.webp": 23694,
+      "grok/domaines-ouverture-1280.webp": 61178,
+      "grok/domaines-ouverture-1920.webp": 97042,
+      "grok/domaines-ouverture-mobile-640.webp": 47406,
+      "grok/domaines-ouverture-mobile-1080.webp": 92098
+    },
+    "media": "c.media({ nom: 'grok/domaines-ouverture', alt: \"Toits de tuiles d'une ville du sud-est au soleil couchant, une grue au loin\", cadrageMobile: '49% 42%', sizes: '100vw', priorite: true })"
+  },
+  "grok/domaine-famille": {
+    "nom": "grok/domaine-famille",
+    "source": "recu/grok/domaine-famille.jpg",
+    "role": "carte-service",
+    "alt": "Entrée d'un appartement familial, grands et petits manteaux aux patères",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "959118b42d9a9b9c",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 137,
+      "width": 1300,
+      "height": 1625,
+      "source": [
+        1300,
+        1937
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/domaine-famille-480.webp",
+      "grok/domaine-famille-640.webp",
+      "grok/domaine-famille-784.webp"
+    ],
+    "poids": {
+      "grok/domaine-famille-480.webp": 26108,
+      "grok/domaine-famille-640.webp": 39520,
+      "grok/domaine-famille-784.webp": 53368
+    },
+    "media": "c.media({ nom: 'grok/domaine-famille', alt: \"Entrée d'un appartement familial, grands et petits manteaux aux patères\", cadrage: '51% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/domaine-successions": {
+    "nom": "grok/domaine-successions",
+    "source": "recu/grok/domaine-successions.jpg",
+    "role": "carte-service",
+    "alt": "Trousseau de vieilles clés de maison posé sur une commode en noyer",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "25e6c63fb8e01902",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "44% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 195,
+      "width": 1300,
+      "height": 1625,
+      "source": [
+        1300,
+        1937
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/domaine-successions-480.webp",
+      "grok/domaine-successions-640.webp",
+      "grok/domaine-successions-784.webp"
+    ],
+    "poids": {
+      "grok/domaine-successions-480.webp": 25728,
+      "grok/domaine-successions-640.webp": 37724,
+      "grok/domaine-successions-784.webp": 50770
+    },
+    "media": "c.media({ nom: 'grok/domaine-successions', alt: \"Trousseau de vieilles clés de maison posé sur une commode en noyer\", cadrage: '44% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/domaine-urbanisme": {
+    "nom": "grok/domaine-urbanisme",
+    "source": "recu/grok/domaine-urbanisme.jpg",
+    "role": "carte-service",
+    "alt": "Terrain à bâtir marqué de piquets et d'un cordeau, au bord d'un quartier résidentiel",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "8709220e1f9016ea",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "54% 37%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1300,
+      "height": 1625,
+      "source": [
+        1300,
+        1937
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/domaine-urbanisme-480.webp",
+      "grok/domaine-urbanisme-640.webp",
+      "grok/domaine-urbanisme-784.webp"
+    ],
+    "poids": {
+      "grok/domaine-urbanisme-480.webp": 57754,
+      "grok/domaine-urbanisme-640.webp": 87976,
+      "grok/domaine-urbanisme-784.webp": 114476
+    },
+    "media": "c.media({ nom: 'grok/domaine-urbanisme', alt: \"Terrain à bâtir marqué de piquets et d'un cordeau, au bord d'un quartier résidentiel\", cadrage: '54% 37%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/domaine-fonction-publique": {
+    "nom": "grok/domaine-fonction-publique",
+    "source": "recu/grok/domaine-fonction-publique.jpg",
+    "role": "carte-service",
+    "alt": "Long couloir lumineux d'un bâtiment administratif, portes de bureaux fermées",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "4706f215fc464430",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 175,
+      "width": 1300,
+      "height": 1625,
+      "source": [
+        1300,
+        1937
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/domaine-fonction-publique-480.webp",
+      "grok/domaine-fonction-publique-640.webp",
+      "grok/domaine-fonction-publique-784.webp"
+    ],
+    "poids": {
+      "grok/domaine-fonction-publique-480.webp": 21888,
+      "grok/domaine-fonction-publique-640.webp": 34172,
+      "grok/domaine-fonction-publique-784.webp": 47076
+    },
+    "media": "c.media({ nom: 'grok/domaine-fonction-publique', alt: \"Long couloir lumineux d'un bâtiment administratif, portes de bureaux fermées\", sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/honoraires-table": {
+    "nom": "grok/honoraires-table",
+    "source": "recu/grok/honoraires-table.jpg",
+    "role": "galerie",
+    "alt": "Table en chêne vue du dessus, feuille blanche, stylo plume et café",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "caab55b1bce15365",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 187,
+      "top": 0,
+      "width": 1098,
+      "height": 1098,
+      "source": [
+        1635,
+        1098
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/honoraires-table-480.webp",
+      "grok/honoraires-table-800.webp",
+      "grok/honoraires-table-1100.webp"
+    ],
+    "poids": {
+      "grok/honoraires-table-480.webp": 20388,
+      "grok/honoraires-table-800.webp": 50150,
+      "grok/honoraires-table-1100.webp": 75632
+    },
+    "media": "c.media({ nom: 'grok/honoraires-table', alt: \"Table en chêne vue du dessus, feuille blanche, stylo plume et café\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.jpg",
+    "role": "404",
+    "alt": "Une chaise bleu marine seule dans une pièce blanche et vide",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e934d73c167e0540",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1280,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 58%"
+    },
+    "cadrage": "73% 50%",
+    "sujet": {
+      "x": 43.8,
+      "y": 18.7,
+      "l": 53.1,
+      "h": 65
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.82,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.67,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 177,
+      "width": 1635,
+      "height": 920,
+      "source": [
+        1635,
+        1098
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1280.webp",
+      "grok/page-404-1600.webp",
+      "grok/page-404-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 21614,
+      "grok/page-404-1280.webp": 48062,
+      "grok/page-404-1600.webp": 69590,
+      "grok/page-404-mobile-640.webp": 37134
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Une chaise bleu marine seule dans une pièce blanche et vide\", cadrage: '73% 50%', cadrageMobile: '50% 58%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

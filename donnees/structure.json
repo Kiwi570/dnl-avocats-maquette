@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "DNL Avocats",
+  "legalName": "DNL AVOCATS SELARL",
+  "url": "https://dnl-avocats-maquette.vercel.app/",
+  "telephone": "+33478388950",
+  "email": "contact@dnlavocats.com",
+  "description": "Cabinet d'avocates à Lyon et Avignon : droit de la famille, des personnes et du patrimoine, successions, droit de l'urbanisme et de la fonction publique.",
+  "priceRange": "Premier rendez-vous 180 € TTC",
+  "areaServed": ["Lyon", "Avignon"],
+  "address": { "@type": "PostalAddress", "streetAddress": "90 rue Paul Bert", "postalCode": "69003", "addressLocality": "Lyon", "addressCountry": "FR" },
+  "location": [
+    { "@type": "Place", "name": "DNL Avocats Lyon", "address": { "@type": "PostalAddress", "streetAddress": "90 rue Paul Bert", "postalCode": "69003", "addressLocality": "Lyon", "addressCountry": "FR" } },
+    { "@type": "Place", "name": "DNL Avocats Avignon", "address": { "@type": "PostalAddress", "streetAddress": "1117 chemin du Lavarin", "postalCode": "84000", "addressLocality": "Avignon", "addressCountry": "FR" } }
+  ],
+  "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00" }],
+  "employee": [
+    { "@type": "Person", "name": "Anne Di Nicola", "jobTitle": "Avocate" },
+    { "@type": "Person", "name": "Agathe Lucot", "jobTitle": "Avocate" },
+    { "@type": "Person", "name": "Agathe Schiltz", "jobTitle": "Avocate" }
+  ],
+  "sameAs": ["https://www.facebook.com/DNLAvocats", "https://www.instagram.com/dnlavocats/"]
+}

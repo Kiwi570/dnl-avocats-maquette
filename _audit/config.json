@@ -1,0 +1,26 @@
+{
+  "siteActuel": "www.dnlavocats.com",
+  "pagesTypes": [
+    "/",
+    "/cabinet",
+    "/domaines",
+    "/honoraires",
+    "/contact"
+  ],
+  "effets": [
+    "pastille",
+    "partage",
+    "table-ronde",
+    "horloge",
+    "accord",
+    "appel-cercle",
+    "quatrieme-place",
+    "cabinet-ouverture",
+    "bandeau",
+    "prix-geant",
+    "trio"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
+}

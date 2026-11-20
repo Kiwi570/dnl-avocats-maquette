@@ -1,0 +1,21 @@
+{
+  "nom": "DNL Avocats",
+  "adresse": "https://dnl-avocats-maquette.vercel.app",
+  "siteActuel": "dnlavocats.com",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "cabinet", "domaines", "honoraires", "contact"],
+  "actionEntete": { "page": "contact" },
+  "couleurs": { "fond": "#F6F2EB", "texte": "#1B2420", "voile": "#1E3A33", "theme": "#F6F2EB", "ouverture": "#F6F2EB", "menu": "#F6F2EB" },
+  "formeVoile": "iris",
+  "contact": {
+    "telephone": "04 78 38 89 50",
+    "telephoneLien": "+33478388950",
+    "email": "contact@dnlavocats.com",
+    "adresse": "90 rue Paul Bert, 69003 Lyon"
+  },
+  "horaires": { "fuseau": "Europe/Paris", "jours": [1, 2, 3, 4, 5], "ouverture": 9, "fermeture": 18 },
+  "polices": ["/assets/fonts/dm-serif-display-latin-400-normal.woff2", "/assets/fonts/albert-sans-latin-wght-normal.woff2"],
+  "imagePartage": "equipe-1280.webp",
+  "curseur": true
+}

@@ -1,0 +1,16 @@
+[
+  { "id": "divorce-consentement", "pole": "famille", "libelle": "Divorce par consentement mutuel", "montant": "dès 1 500 €", "valeur": 1500 },
+  { "id": "divorce-judiciaire", "pole": "famille", "libelle": "Divorce judiciaire", "montant": "dès 1 500 €", "valeur": 1500 },
+  { "id": "adoption", "pole": "famille", "libelle": "Adoption simple ou plénière", "montant": "dès 1 500 €", "valeur": 1500 },
+  { "id": "autorite-parentale", "pole": "famille", "libelle": "Délégation de l'autorité parentale", "montant": "dès 800 €", "valeur": 800 },
+  { "id": "filiation", "pole": "famille", "libelle": "Filiation, transcription d'un acte de naissance étranger (enfants nés de GPA à l'étranger)", "montant": "dès 3 000 €", "valeur": 3000 },
+  { "id": "visite-tiers", "pole": "famille", "libelle": "Droit de visite et d'hébergement pour un tiers", "montant": "dès 2 000 €", "valeur": 2000 },
+  { "id": "jaf", "pole": "famille", "libelle": "Fixation ou modification des mesures concernant un enfant devant le juge aux affaires familiales", "montant": "dès 1 500 €", "valeur": 1500 },
+  { "id": "mise-en-demeure", "pole": "public", "libelle": "Mise en demeure", "montant": "dès 600 €", "valeur": 600 },
+  { "id": "recours-gracieux", "pole": "public", "libelle": "Recours gracieux ou hiérarchique", "montant": "de 960 € à 1 440 €", "valeur": 960 },
+  { "id": "reclamation-indemnitaire", "pole": "public", "libelle": "Réclamation indemnitaire préalable obligatoire", "montant": "dès 1 200 €", "valeur": 1200 },
+  { "id": "recours-annulation", "pole": "public", "libelle": "Recours en annulation ou en indemnisation (forfait de base)", "montant": "dès 1 440 € TTC", "valeur": 1440 },
+  { "id": "appel-caa", "pole": "public", "libelle": "Appel devant une cour administrative d'appel (forfait)", "montant": "dès 2 400 € TTC", "valeur": 2400 },
+  { "id": "refere-suspension", "pole": "public", "libelle": "Référé-suspension", "montant": "dès 1 440 €", "valeur": 1440 },
+  { "id": "refere-liberte", "pole": "public", "libelle": "Référé-liberté", "montant": "dès 3 000 €", "valeur": 3000 }
+]

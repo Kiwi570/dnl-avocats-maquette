@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DNL Avocats · trois directions</title>
+<style>
+@font-face{font-family:"DM Serif Display";src:url(f/dm-serif-display-latin-400-normal.woff2) format("woff2");font-weight:400;font-style:normal}
+@font-face{font-family:"DM Serif Display";src:url(f/dm-serif-display-latin-400-italic.woff2) format("woff2");font-weight:400;font-style:italic}
+@font-face{font-family:"Albert Sans";src:url(f/albert-sans-latin-400-normal.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"Albert Sans";src:url(f/albert-sans-latin-600-normal.woff2) format("woff2");font-weight:600}
+@font-face{font-family:"Anybody";src:url(f/anybody-var.woff2) format("woff2");font-weight:100 900;font-stretch:50% 150%}
+@font-face{font-family:"Inter Tight";src:url(f/inter-tight-latin-400-normal.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"Inter Tight";src:url(f/inter-tight-latin-600-normal.woff2) format("woff2");font-weight:600}
+@font-face{font-family:"Brygada 1918";src:url(f/brygada-1918-latin-400-normal.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"Brygada 1918";src:url(f/brygada-1918-latin-400-italic.woff2) format("woff2");font-weight:400;font-style:italic}
+@font-face{font-family:"Brygada 1918";src:url(f/brygada-1918-latin-600-normal.woff2) format("woff2");font-weight:600}
+@font-face{font-family:"Instrument Sans";src:url(f/instrument-sans-latin-400-normal.woff2) format("woff2");font-weight:400}
+@font-face{font-family:"Instrument Sans";src:url(f/instrument-sans-latin-600-normal.woff2) format("woff2");font-weight:600}
+*{box-sizing:border-box;margin:0}
+body{background:#e7e4de;font:16px/1.5 "Albert Sans",system-ui,sans-serif;color:#1d1d1b;padding:32px}
+h1{font:600 20px/1.3 "Albert Sans";margin-bottom:4px}
+.sous{color:#555;margin-bottom:24px}
+.dir{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px;background:#fff;border-radius:14px;padding:24px;margin-bottom:24px}
+.mock{position:relative;border-radius:10px;overflow:hidden;aspect-ratio:16/10}
+.info h2{font:600 22px/1.2 "Albert Sans";margin-bottom:2px}
+.info .reco{display:inline-block;background:#1e3a33;color:#f6f2eb;font-size:13px;padding:2px 10px;border-radius:99px;margin-left:8px;vertical-align:3px}
+.info p{font-size:15px;color:#333;margin:8px 0}
+.info b{font-weight:600}
+.pal{display:flex;gap:8px;margin:12px 0}
+.pal div{flex:1;border-radius:8px;height:64px;padding:6px 8px;font:600 12px/1.3 "Albert Sans";display:flex;flex-direction:column;justify-content:flex-end}
+.typo{border-top:1px solid #ddd;padding-top:10px;margin-top:10px}
+ul{padding-left:18px;font-size:15px;color:#333}
+li{margin:3px 0}
+/* A */
+.a{background:#f6f2eb;color:#1b2420;font-family:"Albert Sans"}
+.a .nav{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:14px 22px;font-size:12px}
+.a .logo{font:400 20px "DM Serif Display";letter-spacing:.02em}
+.a .logo i{color:#a64b2a}
+.a .btn{background:#a64b2a;color:#f6f2eb;border-radius:99px;padding:7px 14px;font-weight:600;font-size:12px}
+.a .t{position:absolute;left:22px;top:66px;width:52%;font:400 46px/1.02 "DM Serif Display"}
+.a .t em{color:#a64b2a}
+.a .chap{position:absolute;left:22px;top:48px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#4c5a54}
+.a .cle{position:absolute;left:22px;bottom:22px;width:48%;font-size:12px;display:flex;gap:10px;align-items:center}
+.a .cle span{border:1px solid #1b2420;border-radius:99px;padding:6px 12px}
+.a .photo{position:absolute;right:22px;top:58px;bottom:22px;width:42%;border-radius:999px 999px 18px 18px;overflow:hidden}
+.a .photo img{width:100%;height:100%;object-fit:cover;object-position:52% 30%}
+.a .table{position:absolute;right:calc(42% - 10px);bottom:70px;width:84px;height:84px;border:2px solid #a64b2a;border-radius:50%;}
+.a .table:before{content:"";position:absolute;inset:16px;border-radius:50%;background:#1e3a33}
+/* B */
+.b{background:#14231f;color:#f3eee4;font-family:"Inter Tight"}
+.b .nav{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;padding:14px 22px;font-size:12px;z-index:3}
+.b .logo{font:900 18px "Anybody";font-stretch:70%;letter-spacing:.04em}
+.b .btn{background:#e0563b;color:#14231f;padding:7px 14px;font-weight:600;font-size:12px}
+.b .bandes{position:absolute;inset:0;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:52px 22px 22px}
+.b .bandes img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.05);opacity:.55}
+.b .t{position:absolute;left:22px;right:22px;top:92px;font:900 82px/.86 "Anybody";font-stretch:62%;text-transform:uppercase;z-index:2}
+.b .t em{font-style:normal;color:#e0563b}
+.b .src{position:absolute;left:22px;bottom:22px;font-size:12px;z-index:2;background:#14231f;padding:6px 10px}
+/* C */
+.c{background:#efebe3;color:#1d2a44;font-family:"Instrument Sans"}
+.c .nav{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;padding:14px 22px;font-size:12px}
+.c .logo{font:600 18px "Brygada 1918"}
+.c .btn{background:#1d2a44;color:#efebe3;border-radius:4px;padding:7px 14px;font-weight:600;font-size:12px}
+.c .t{position:absolute;left:22px;top:60px;width:60%;font:400 40px/1.08 "Brygada 1918"}
+.c .t em{color:#9c6220}
+.c .villes{position:absolute;left:22px;right:22px;bottom:22px;display:grid;grid-template-columns:1fr 1fr;gap:10px;height:42%}
+.c .villes figure{position:relative;border-radius:6px;overflow:hidden}
+.c .villes img{width:100%;height:100%;object-fit:cover}
+.c .villes figcaption{position:absolute;left:10px;bottom:8px;color:#fff;font:600 13px "Instrument Sans";text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.c svg{position:absolute;left:22px;right:22px;top:178px;width:calc(100% - 44px);height:40px}
+</style>
+</head>
+<body>
+<h1>DNL Avocats · trois directions pour la maquette</h1>
+<p class="sous">Les vraies photos du cabinet (séance au bureau de Lyon) sont au cœur des trois. Aperçus de l'ouverture de l'accueil, palette en codes et typographies.</p>
+
+<section class="dir">
+  <div class="mock a">
+    <div class="nav"><span class="logo">DNL <i>Avocats</i></span><span>Le cabinet · Domaines · Honoraires · Contact</span><span class="btn">Prendre rendez-vous</span></div>
+    <p class="chap">Avocates · Lyon &amp; Avignon</p>
+    <h2 class="t">À vos côtés pour un monde plus <em>juste</em></h2>
+    <div class="photo"><img src="i/equipe.jpg" alt=""></div>
+    <div class="table" aria-hidden="true"></div>
+    <div class="cle"><span>Premier rendez-vous 180 € TTC</span><span>En cabinet ou en visio</span></div>
+  </div>
+  <div class="info">
+    <h2>A · « À vos côtés » <span class="reco">Recommandé</span></h2>
+    <p>Clair, chaleureux, éditorial : la lumière de leurs bureaux (blanc, chêne, vert des plantes), un vert sapin pour rythmer, une terre cuite pour agir. Rassurant pour une personne qui traverse un divorce ou un conflit avec son administration.</p>
+    <div class="pal">
+      <div style="background:#f6f2eb;border:1px solid #ddd">Ivoire<br>#F6F2EB · fond</div>
+      <div style="background:#1e3a33;color:#f6f2eb">Vert sapin<br>#1E3A33 · second fond</div>
+      <div style="background:#a64b2a;color:#f6f2eb">Terre cuite<br>#A64B2A · accent</div>
+      <div style="background:#1b2420;color:#f6f2eb">Encre<br>#1B2420 · texte</div>
+    </div>
+    <p class="typo"><b style="font:400 22px 'DM Serif Display'">DM Serif Display, <i>en italique</i></b> pour les titres · <b>Albert Sans</b> pour le texte</p>
+    <ul>
+      <li><b>L'idée</b> : la table ronde en chêne du cabinet. Un cercle discret relie le site : arche de la photo d'ouverture, voile qui s'ouvre en rond, et la méthode vue de dessus (quatre places qui s'allument : écouter, rassurer, conseiller, défendre).</li>
+      <li><b>Accueil</b> : ouverture · « Votre famille / l'administration » en écran partagé · la méthode autour de la table · quatre domaines en cartes qui s'empilent · honoraires transparents (180 € qui compte) · les trois avocates en grand · l'amiable d'abord · Lyon &amp; Avignon · appel final.</li>
+      <li><b>Niveau visé</b> : Artic (revue claire et soignée).</li>
+    </ul>
+  </div>
+</section>
+
+<section class="dir">
+  <div class="mock b">
+    <div class="nav"><span class="logo">DNL AVOCATS</span><span>Cabinet · Domaines · Honoraires · Contact</span><span class="btn">Rendez-vous</span></div>
+    <div class="bandes"><img src="i/anne.jpg" alt=""><img src="i/schiltz.jpg" alt=""><img src="i/lucot.jpg" alt=""></div>
+    <h2 class="t">Ne vous résignez <em>jamais</em></h2>
+    <p class="src">Gisèle Halimi, marraine de serment de Me Di Nicola</p>
+  </div>
+  <div class="info">
+    <h2>B · « Ne vous résignez jamais »</h2>
+    <p>Engagé et contrasté : vert nuit, ivoire pour les sections pratiques (domaines, tarifs, formulaire), un vermillon franc. Très affirmé, plus militant que rassurant pour une clientèle en séparation ou en succession.</p>
+    <div class="pal">
+      <div style="background:#14231f;color:#f3eee4">Vert nuit<br>#14231F · fond</div>
+      <div style="background:#f3eee4;border:1px solid #ddd">Ivoire<br>#F3EEE4 · second fond</div>
+      <div style="background:#e0563b;color:#14231f">Vermillon<br>#E0563B · accent</div>
+      <div style="background:#c9432a;color:#fff">Vermillon foncé<br>#C9432A · sur clair</div>
+    </div>
+    <p class="typo"><b style="font:900 24px 'Anybody';font-stretch:62%;text-transform:uppercase">Anybody condensé</b> pour les titres géants · <b style="font-family:'Inter Tight'">Inter Tight</b> pour le texte</p>
+    <ul>
+      <li><b>L'idée</b> : la parole qui ne se résigne pas. Titres géants qui accélèrent avec le défilement, portraits en bandes qui reprennent couleur.</li>
+      <li><b>Accueil</b> : citation géante · trois avocates · « Vos proches / Vos droits face à l'administration » · méthode · domaines · honoraires · deux bureaux · appel.</li>
+      <li><b>Niveau visé</b> : Les Plus Hautes Eaux (nuit, typographie).</li>
+    </ul>
+  </div>
+</section>
+
+<section class="dir">
+  <div class="mock c">
+    <div class="nav"><span class="logo">DNL Avocats</span><span>Cabinet · Domaines · Honoraires · Contact</span><span class="btn">Rendez-vous</span></div>
+    <h2 class="t">De Lyon à Avignon, <em>à vos côtés</em></h2>
+    <svg viewBox="0 0 1000 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34 H140 l10-8 h30 l6-14 l6 14 h60 l8-6 h90 q60 10 120 0 t140 4 h40 l6-10 h20 l4-18 l4 18 h18 l6 10 h120 l10-6 h130" fill="none" stroke="#1d2a44" stroke-width="2.5"/></svg>
+    <div class="villes"><figure><img src="i/lyon.jpg" alt=""><figcaption>Lyon · 90 rue Paul Bert</figcaption></figure><figure><img src="i/avignon.jpg" alt=""><figcaption>Avignon · chemin du Lavarin</figcaption></figure></div>
+  </div>
+  <div class="info">
+    <h2>C · « Au fil du Rhône »</h2>
+    <p>Minéral et serein : pierre calcaire, bleu nuit des chaises et de la silhouette de Lyon accrochée au mur du cabinet, ocre de Provence. Plus institutionnel, centré sur les deux bureaux.</p>
+    <div class="pal">
+      <div style="background:#efebe3;border:1px solid #ddd">Pierre<br>#EFEBE3 · fond</div>
+      <div style="background:#1d2a44;color:#efebe3">Bleu nuit<br>#1D2A44 · second fond</div>
+      <div style="background:#9c6220;color:#fff">Ocre<br>#9C6220 · accent</div>
+      <div style="background:#d9a35a;color:#1d2a44">Ocre clair<br>#D9A35A · sur sombre</div>
+    </div>
+    <p class="typo"><b style="font:600 22px 'Brygada 1918'">Brygada 1918</b> pour les titres · <b style="font-family:'Instrument Sans'">Instrument Sans</b> pour le texte</p>
+    <ul>
+      <li><b>L'idée</b> : la silhouette de Lyon du mur, prolongée d'un trait jusqu'au Palais des papes ; le Rhône relie les deux bureaux.</li>
+      <li><b>Réserve</b> : un trait qui se dessine et un plan « territoire », déjà au cœur des trois dernières maquettes.</li>
+      <li><b>Niveau visé</b> : Skapelys (net, efficace).</li>
+    </ul>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "famille",
+    "pole": "famille",
+    "titre": "Famille et personnes",
+    "court": "Famille",
+    "image": "domaine-famille",
+    "intro": "Vos enfants, votre couple, votre nom : les décisions qui touchent à l'intime, préparées avec vous.",
+    "groupes": [
+      { "titre": "Enfants", "liste": ["Adoption simple ou plénière", "Garde, autorité parentale, pension alimentaire", "Droit de visite et d'hébergement", "Filiation, changement de nom ou de prénom", "Exequatur de jugements de filiation étrangers (GPA)", "Droits des grands-parents et du parent social"] },
+      { "titre": "Divorce et séparation", "liste": ["Divorce par consentement mutuel", "Divorce pour faute ou pour un autre cas", "Prestation compensatoire", "Rupture de PACS", "Procédures relatives à la garde"] },
+      { "titre": "Droit des personnes", "liste": ["Changement d'état civil", "Changement de nom et de prénom"] }
+    ],
+    "avocates": ["agathe-lucot", "agathe-schiltz"],
+    "tarifs": ["divorce-consentement", "autorite-parentale", "jaf"],
+    "sujet": "famille"
+  },
+  {
+    "id": "successions",
+    "pole": "famille",
+    "titre": "Successions et patrimoine",
+    "court": "Successions",
+    "image": "domaine-successions",
+    "intro": "Une succession, une indivision, un régime matrimonial à liquider : connaître vos droits et sortir des blocages.",
+    "groupes": [
+      { "titre": "Successions", "liste": ["Dévolution légale du patrimoine", "Vos droits dans une succession", "Validité et contestation des testaments et des legs"] },
+      { "titre": "Indivision", "liste": ["Gestion et sortie d'indivision", "Vente d'un bien en cas de désaccord", "Indemnités d'occupation, à obtenir ou à contester"] },
+      { "titre": "Régime matrimonial", "liste": ["Liquidation ou partage du régime matrimonial"] }
+    ],
+    "avocates": ["agathe-lucot", "agathe-schiltz"],
+    "tarifs": [],
+    "sujet": "successions"
+  },
+  {
+    "id": "urbanisme",
+    "pole": "public",
+    "titre": "Urbanisme",
+    "court": "Urbanisme",
+    "image": "domaine-urbanisme",
+    "intro": "Un terrain, un permis, un voisin qui construit : sécuriser votre projet ou contester une décision.",
+    "groupes": [
+      { "titre": "Avant de construire", "liste": ["Analyse juridique et réglementaire d'un terrain", "Conformité d'un projet de construction"] },
+      { "titre": "Contester", "liste": ["Permis de construire, de démolir ou d'aménager", "Déclaration préalable", "Refus de permis ou opposition à déclaration préalable", "Plan local d'urbanisme, zonage d'une parcelle", "Préemption et expropriation"] },
+      { "titre": "Travaux sans autorisation", "liste": ["Procès-verbaux", "Mises en demeure sous astreinte", "Régularisation"] }
+    ],
+    "avocates": ["anne-di-nicola"],
+    "tarifs": ["mise-en-demeure", "recours-gracieux", "recours-annulation", "refere-suspension"],
+    "sujet": "urbanisme"
+  },
+  {
+    "id": "fonction-publique",
+    "pole": "public",
+    "titre": "Fonction publique",
+    "court": "Fonction publique",
+    "image": "domaine-fonction-publique",
+    "intro": "Agents des trois fonctions publiques (État, territoriale, hospitalière), sur tout le territoire : défendre votre carrière.",
+    "groupes": [
+      { "titre": "Carrière", "liste": ["Concours, stage, titularisation", "Avancement, mutation, détachement", "Disponibilité, évaluation"] },
+      { "titre": "Discipline", "liste": ["Enquête administrative", "Conseil de discipline", "Sanctions"] },
+      { "titre": "Santé et protection", "liste": ["Congés, maladie, accident de travail", "Invalidité", "Harcèlement et discrimination"] },
+      { "titre": "Fin de fonctions", "liste": ["Démission, licenciement, retraite", "Révocation, insuffisance professionnelle", "Rupture conventionnelle"] }
+    ],
+    "avocates": ["anne-di-nicola", "agathe-schiltz"],
+    "tarifs": ["reclamation-indemnitaire", "appel-caa", "refere-liberte"],
+    "sujet": "fonction-publique"
+  }
+]

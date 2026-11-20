@@ -1,0 +1,8 @@
+[
+  { "q": "Combien coûte le premier rendez-vous ?", "r": "180 € TTC, pour une consultation d'une heure à une heure trente, au cabinet ou en visio." },
+  { "q": "Que se passe-t-il ensuite ?", "r": "À l'issue du rendez-vous, le cabinet fait une première analyse de votre situation. Si une procédure amiable ou contentieuse est nécessaire, un devis vous est remis." },
+  { "q": "Forfait ou temps passé ?", "r": "Une convention d'honoraires vous est soumise avant tout travail, sauf urgence. La rémunération peut être forfaitaire ou au temps passé ; le taux horaire habituel du cabinet est de 250 € HT, soit 300 € TTC." },
+  { "q": "Qu'est-ce qu'un honoraire de résultat ?", "r": "Pour certaines procédures, un honoraire de résultat peut s'ajouter. Il est calculé sur la réduction des sommes réclamées par l'adversaire, une condamnation judiciaire, un désistement ou une transaction, et figure dans la convention." },
+  { "q": "Mon assurance peut-elle prendre en charge les honoraires ?", "r": "L'assurance protection juridique peut couvrir une partie des honoraires. Pensez à vérifier votre contrat avant le premier rendez-vous." },
+  { "q": "Les montants de la grille sont-ils définitifs ?", "r": "Non : ce sont des tarifs indicatifs, à partir de. Le montant tient compte des enjeux, des difficultés du dossier et de votre situation, et il est fixé dans le devis." }
+]
