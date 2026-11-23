@@ -2,7 +2,7 @@
   "nom": "DNL Avocats",
   "adresse": "https://dnl-avocats-maquette.vercel.app",
   "siteActuel": "dnlavocats.com",
-  "version": 1,
+  "version": 2,
   "langues": ["fr"],
   "navigation": ["accueil", "cabinet", "domaines", "honoraires", "contact"],
   "actionEntete": { "page": "contact" },

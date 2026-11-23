@@ -103,6 +103,60 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Images Grok reçues à 18:50, agrandies à 1300-1640 px avant produire (leçons creative-keys-2 et stephane-verfaillie). Audit : 41 échecs au premier passage standard, 0 après corrections ; passe des formats 4 échecs puis 0. Safari non lancé (WebKit indisponible)."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1.1",
+      "perimetre": [
+        "accueil",
+        "cabinet",
+        "domaines",
+        "honoraires",
+        "contact",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse complète (captures section par section, films)",
+          "budget": 15,
+          "debut": "2026-11-23T15:01:00+01:00",
+          "fin": "2026-11-23T15:08:00+01:00"
+        },
+        {
+          "etape": "améliorations (interactions, repères, finitions)",
+          "budget": 40,
+          "debut": "2026-11-23T15:08:00+01:00",
+          "fin": "2026-11-23T15:29:00+01:00"
+        },
+        {
+          "etape": "audit rapide, audit complet et corrections",
+          "budget": 60,
+          "debut": "2026-11-23T15:09:00+01:00",
+          "fin": "2026-11-23T16:25:00+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-23T16:25:00+01:00",
+          "fin": "2026-11-23T16:32:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [
+        "formulaire-par-etapes"
+      ],
+      "audit": {
+        "niveau": "complet",
+        "echecsPremierPassage": 1,
+        "relances": 1,
+        "corrections": [
+          "frise du cabinet : transition de couleur des années mesurée à mi-chemin par axe (contraste) ; couleurs passées sans transition"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Version finale proposée : table qui tourne, étapes cliquables, anneau de lecture, filtre « qui vous reçoit », sous-navigation des domaines, frise, barres de la grille, pictogrammes tracés."
     }
   ]
 }

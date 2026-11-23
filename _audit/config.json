@@ -18,7 +18,12 @@
     "cabinet-ouverture",
     "bandeau",
     "prix-geant",
-    "trio"
+    "trio",
+    "lecture",
+    "qui",
+    "frise",
+    "barres",
+    "pied-fin"
   ],
   "grille": {
     "dispenses": {}

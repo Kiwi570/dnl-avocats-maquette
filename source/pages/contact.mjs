@@ -38,7 +38,7 @@ export default (c) => {
     </div>
     <div class="rdv-formulaire" id="rendez-vous">
       <div class="fpe" data-module="formulaire-par-etapes">
-        <div class="fpe__carton">
+        <div class="fpe__carton" data-visuel>
           <form class="fpe__form" action="#" method="post" novalidate>
             <div class="fpe__progression">
               <ol class="fpe__reperes" aria-label="Progression"></ol>
@@ -83,7 +83,7 @@ export default (c) => {
               <button class="fpe__bouton" type="submit">${T('envoyer')}</button>
             </div>
           </form>
-          <div class="fpe__fin" hidden>
+          <div class="fpe__fin" hidden data-grille="retour">
             <svg class="fpe__coche" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><path d="M20 33l8 8 16-17"/></svg>
             <h2>${T('merci')}</h2>
             <p data-resume></p>
@@ -102,10 +102,10 @@ export default (c) => {
     <p class="surtitre" data-anime>${T('bureauxSurtitre')}</p>
     <h2 id="adresses-titre" data-anime="lignes">${T('bureauxTitre')}</h2>
     <p class="adresses-intro" data-anime>${T('bureauxTexte')}</p>
-    <div class="adresses-grille" data-anime="cascade">
+    <div class="adresses-grille">
       ${c.donnees.cabinet.bureaux.map((b) => html`<article class="adresse">
         ${c.media({ nom: b.image, alt: c.donnees.images[b.image].alt, cadrage: c.donnees.images[b.image].cadrage, classe: 'adresse-media', sizes: '(max-width: 760px) 100vw, 50vw', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}
-        <div class="adresse-texte"><h3>${b.ville}</h3><p class="bureau-role">${b.role}</p><p>${b.adresse}<br>${b.cp}</p><p><a class="lien-tel" href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a></p></div>
+        <div class="adresse-texte" data-anime><h3>${b.ville}</h3><p class="bureau-role">${b.role}</p><p>${b.adresse}<br>${b.cp}</p><p><a class="lien-tel" href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a></p></div>
       </article>`)}
     </div>
   </div>

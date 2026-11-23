@@ -47,7 +47,7 @@ export default (c) => {
       <div class="partage-carte">
         <h3>${T(`situation.${k}Titre`)}</h3>
         <p>${T(`situation.${k}Texte`)}</p>
-        <ul class="partage-liste">${liste(`${k}Liste`).map((x) => html`<li>${x}</li>`)}</ul>
+        <ul class="partage-liste">${liste(`${k}Liste`).map((x) => { const [texte, a] = x.split('>'); return html`<li>${c.lien('domaines', { ancre: a, texte })}</li>`; })}</ul>
         ${c.lien(p, { ancre, classe: 'lien-fleche', texte: html`${T(`situation.${k}Lien`)} <span aria-hidden="true">→</span>` })}
       </div>
     </article>`)}
@@ -65,7 +65,7 @@ export default (c) => {
         <h2 id="methode-titre" data-anime="lignes">${T('methode.titre')}</h2>
         <p class="methode-intro masque-ecran-bas">${T('methode.texte')}</p>
         <ol class="methode-etapes" data-etapes>
-          ${['e1', 'e2', 'e3', 'e4'].map((k, i) => html`<li class="methode-etape${i === 0 ? ' est-active' : ''}" data-etape="${i}"><span class="methode-num" aria-hidden="true">${i + 1}</span><div><h3>${T(`methode.${k}`)}</h3><p>${T(`methode.${k}t`)}</p></div></li>`)}
+          ${['e1', 'e2', 'e3', 'e4'].map((k, i) => html`<li class="methode-etape${i === 0 ? ' est-active' : ''}" data-etape="${i}"><button type="button" class="methode-num" data-aller-etape="${i}" aria-label="${c.s('accueil.methode.allerEtape')} ${i + 1} : ${c.s(`accueil.methode.${k}`)}">${i + 1}</button><div><h3>${T(`methode.${k}`)}</h3><p>${T(`methode.${k}t`)}</p></div></li>`)}
         </ol>
       </div>
     </div>
@@ -80,6 +80,8 @@ export default (c) => {
       <circle class="horloge-piste horloge-piste--int" cx="120" cy="120" r="94"/>
       <circle class="horloge-demi" cx="120" cy="120" r="94" pathLength="1" transform="rotate(-90 120 120)"/>
       ${Array.from({ length: 12 }, (_, i) => html`<line class="horloge-cran" x1="120" y1="6" x2="120" y2="${i % 3 ? 14 : 20}" transform="rotate(${i * 30} 120 120)"/>`)}
+      <g class="horloge-tete horloge-tete--heure"><circle cx="120" cy="12" r="9"/></g>
+      <g class="horloge-tete horloge-tete--demi"><circle cx="120" cy="26" r="6"/></g>
     </svg>
     <p class="annonce-prix" aria-hidden="true"><span class="annonce-nombre" data-compteur="180">180</span><span class="annonce-unite">${T('honoraires.unite')}</span></p>
     <p class="annonce-duree"><strong>${T('honoraires.duree')}</strong> ${T('honoraires.dureeTexte')}</p>
@@ -104,9 +106,17 @@ export default (c) => {
       <h2 id="avocates-titre" data-anime="lignes">${T('avocates.titre')}</h2>
       <p data-anime>${T('avocates.texte')}</p>
     </div>
-    <ul class="avocates-grille" data-anime="cascade">
-      ${equipe.map((a) => html`<li class="avocate">
-        ${c.lien('cabinet', { ancre: a.id, classe: 'avocate-lien', texte: html`${c.media({ nom: a.image, alt: c.donnees.images[a.image].alt, cadrage: c.donnees.images[a.image].cadrage, classe: 'avocate-media', sizes: '(max-width: 760px) 100vw, 33vw', attrs: 'data-fx="parallaxe" data-fx-force="7"' })}<span class="avocate-nom">${a.nom}</span>` })}
+    <div class="qui" data-qui data-anime data-grille="manipuler">
+      <p class="qui-titre" id="qui-titre">${T('avocates.quiTitre')}</p>
+      <div class="qui-puces" role="group" aria-labelledby="qui-titre">
+        <button type="button" class="qui-puce" data-qui-domaine="tous" aria-pressed="true">${T('avocates.quiTous')}</button>
+        ${c.donnees.domaines.map((d) => { const noms = d.avocates.map((id) => equipe.find((a) => a.id === id).court); return html`<button type="button" class="qui-puce" data-qui-domaine="${d.id}" data-avocates="${d.avocates.join(' ')}" data-reponse="${noms.join(' et ')} ${c.s(noms.length > 1 ? 'accueil.avocates.quiRecoivent' : 'accueil.avocates.quiRecoit')} pour ${d.question}." aria-pressed="false">${d.court}</button>`; })}
+      </div>
+      <p class="qui-reponse" data-qui-reponse aria-live="polite">${T('avocates.quiAide')}</p>
+    </div>
+    <ul class="avocates-grille" data-anime="cascade" data-effet="qui">
+      ${equipe.map((a) => html`<li class="avocate" data-avocate="${a.id}">
+        ${c.lien('cabinet', { ancre: a.id, classe: 'avocate-lien', texte: html`${c.media({ nom: a.image, alt: c.donnees.images[a.image].alt, cadrage: c.donnees.images[a.image].cadrage, classe: 'avocate-media', sizes: '(max-width: 760px) 100vw, 33vw' })}<span class="avocate-nom">${a.nom}</span>` })}
         <p class="avocate-depuis">${a.depuis}</p>
         <p class="avocate-domaine">${a.domaine}</p>
         <p class="avocate-mention">${a.mention}</p>
@@ -149,10 +159,10 @@ export default (c) => {
     <p data-anime>${T('bureaux.texte')}</p>
     ${statut(c)}
   </div>
-  <div class="bureaux-grille" data-anime="cascade">
+  <div class="bureaux-grille">
     ${c.donnees.cabinet.bureaux.map((b) => html`<article class="bureau">
       ${c.media({ nom: b.image, alt: c.donnees.images[b.image].alt, cadrage: c.donnees.images[b.image].cadrage, classe: 'bureau-media', sizes: '(max-width: 760px) 100vw, 45vw', attrs: 'data-fx="zoom"' })}
-      <div class="bureau-texte">
+      <div class="bureau-texte" data-anime>
         <h3>${b.ville}</h3>
         <p class="bureau-role">${b.role}</p>
         <p>${b.adresse}<br>${b.cp}</p>

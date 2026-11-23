@@ -9,6 +9,7 @@ export function tableRonde(c, { libelle, places, effet, classe = '', vide = -1 }
   return html`<svg class="table ${classe}" viewBox="0 0 400 400" data-effet="${effet}" data-visuel role="img" aria-label="${libelle}">
   <circle class="table-anneau-piste" cx="200" cy="200" r="132"/>
   <circle class="table-anneau" cx="200" cy="200" r="132" pathLength="1" transform="rotate(-90 200 200)"/>
+  <g class="table-tourne">
   ${angles.map((a, i) => {
     const [x, y] = pos(a, 160);
     return html`<g class="place${i === vide ? ' place--vide' : ''}" data-place="${i}" transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${a + 90})"><rect class="place-assise" x="-26" y="-20" width="52" height="40" rx="10"/><path class="place-dossier" d="M-28 24 Q0 40 28 24"/></g>`;
@@ -19,8 +20,9 @@ export function tableRonde(c, { libelle, places, effet, classe = '', vide = -1 }
   <circle class="table-centre" cx="200" cy="200" r="10"/>
   ${angles.map((a, i) => {
     const [x, y] = pos(a, 66);
-    return html`<text class="place-libelle" data-libelle-place="${i}" x="${x.toFixed(1)}" y="${(y + 6).toFixed(1)}" text-anchor="middle">${places[i]}</text>`;
+    return html`<text class="place-libelle" data-libelle-place="${i}" data-x="${x.toFixed(1)}" data-y="${y.toFixed(1)}" x="${x.toFixed(1)}" y="${(y + 6).toFixed(1)}" text-anchor="middle">${places[i]}</text>`;
   })}
+  </g>
 </svg>`;
 }
 

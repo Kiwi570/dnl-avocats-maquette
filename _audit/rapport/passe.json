@@ -1,15 +1,17 @@
 {
- "id": "20261120-190256-complet-cible-partiel",
- "date": "2026-11-20T19:06:00.035Z",
+ "id": "20261123-145632-complet-cible-partiel",
+ "date": "2026-11-23T14:58:58.605Z",
  "niveau": "complet",
- "pages": "/,/cabinet,/honoraires",
+ "pages": "/domaines",
  "etapes": [
   "fichiers",
-  "mesures"
+  "mesures",
+  "mouvement",
+  "fluidite"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 4,
+ "aRegarder": 1,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"

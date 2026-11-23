@@ -1,0 +1,16 @@
+{
+ "id": "20261123-145343-complet-cible-partiel",
+ "date": "2026-11-23T14:55:56.373Z",
+ "niveau": "complet",
+ "pages": "/,/cabinet",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "2",
+ "echecs": 0,
+ "aRegarder": 1,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

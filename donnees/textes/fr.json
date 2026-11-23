@@ -35,7 +35,9 @@
     "appelPlaceTexte": "Trois avocates, une quatrième chaise : la vôtre.",
     "voirDomaines": "Voir nos domaines",
     "decouvrirCabinet": "Découvrir le cabinet",
-    "voirGrille": "Voir la grille indicative"
+    "voirGrille": "Voir la grille indicative",
+    "piedFin": "À vos",
+    "piedFinMot": "côtés"
   },
   "pages": {
     "accueil": {
@@ -100,11 +102,11 @@
       "titre": "Votre situation concerne…",
       "familleTitre": "Votre famille",
       "familleTexte": "Séparation, enfants, filiation, succession : les moments où le droit touche à l'intime.",
-      "familleListe": "Divorce et séparation|Enfants et autorité parentale|Filiation et adoption|Successions et indivision",
+      "familleListe": "Divorce et séparation>famille|Enfants et autorité parentale>famille|Filiation et adoption>famille|Successions et indivision>successions",
       "familleLien": "Famille et patrimoine",
       "publicTitre": "Face à l'administration",
       "publicTexte": "Un permis contesté, une carrière d'agent public bloquée : faire valoir vos droits face à une décision administrative.",
-      "publicListe": "Permis de construire et PLU|Travaux et régularisation|Carrière et discipline des agents|Fin de fonctions",
+      "publicListe": "Permis de construire et PLU>urbanisme|Travaux et régularisation>urbanisme|Carrière et discipline des agents>fonction-publique|Fin de fonctions>fonction-publique",
       "publicLien": "Urbanisme et fonction publique"
     },
     "methode": {
@@ -119,7 +121,8 @@
       "e3t": "Un conseil adapté au droit applicable et à votre situation, pour anticiper de futures difficultés.",
       "e4": "Défendre",
       "e4t": "À l'amiable quand c'est possible, devant le juge quand il le faut, avec la même avocate à vos côtés.",
-      "table": "Table ronde vue de dessus : quatre places, une par étape de la méthode"
+      "table": "Table ronde vue de dessus : quatre places, une par étape de la méthode",
+      "allerEtape": "Aller à l'étape"
     },
     "honoraires": {
       "surtitre": "Des honoraires annoncés",
@@ -137,7 +140,12 @@
       "titre": "Trois avocates pour un même objectif",
       "texte": "Assurer au mieux la défense de vos intérêts et vous conseiller utilement, pour anticiper de futures difficultés.",
       "citation": "« Ne vous résignez jamais. »",
-      "citationSource": "Gisèle Halimi, marraine de serment d'Anne Di Nicola"
+      "citationSource": "Gisèle Halimi, marraine de serment d'Anne Di Nicola",
+      "quiTitre": "Qui vous reçoit pour…",
+      "quiAide": "Choisissez un domaine : les avocates concernées s'avancent.",
+      "quiRecoit": "vous reçoit",
+      "quiRecoivent": "vous reçoivent",
+      "quiTous": "Toutes"
     },
     "amiable": {
       "surtitre": "Quand c'est possible",
@@ -197,7 +205,10 @@
     "pole": {
       "famille": "Famille et patrimoine",
       "public": "Droit public"
-    }
+    },
+    "navLabel": "Les quatre domaines",
+    "navSuivant": "Domaine suivant",
+    "navPrecedent": "Domaine précédent"
   },
   "honoraires": {
     "surtitre": "Honoraires",
@@ -230,7 +241,8 @@
     "aucun": "Aucune démarche ne correspond. Le premier rendez-vous permet d'établir un devis pour toute autre situation.",
     "resultats": "{n} démarche(s) affichée(s)",
     "faqSurtitre": "Questions fréquentes",
-    "faqTitre": "Ce qu'on nous demande souvent"
+    "faqTitre": "Ce qu'on nous demande souvent",
+    "barre": "Longueur de la barre proportionnelle au montant à partir de"
   },
   "contact": {
     "surtitre": "Contact",

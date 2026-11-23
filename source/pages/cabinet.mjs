@@ -42,10 +42,10 @@ export default (c) => {
   <div class="conteneur">
     <p class="surtitre" data-anime>${T('reperesSurtitre')}</p>
     <h2 id="reperes-titre" data-anime="lignes">${T('reperesTitre')}</h2>
-    <div class="frise">
+    <div class="frise" data-frise data-visuel>
       <svg class="frise-trait" viewBox="0 0 1000 20" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M2 10 H998" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
       <ol class="frise-liste" data-anime="cascade">
-        ${C.reperes.map((r) => html`<li><span class="frise-annee">${r.annee}</span><p>${r.texte}</p></li>`)}
+        ${C.reperes.map((r) => html`<li><span class="frise-annee" data-effet="frise">${r.annee}</span><p>${r.texte}</p></li>`)}
       </ol>
     </div>
     <figure class="citation citation--sombre">

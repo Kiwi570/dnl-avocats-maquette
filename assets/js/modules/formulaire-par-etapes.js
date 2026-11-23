@@ -4,7 +4,7 @@
 // aucun envoi réel, un événement « formulaire:envoye » porte les données, et un lien mailto: de repli est possible.
 // Sans JavaScript : toutes les étapes sont visibles et le formulaire reste un formulaire HTML ordinaire.
 /* Repris du module formulaire-par-etapes de la bibliothèque, branché sur le socle de la skill (GSAP global, défilement natif). */
-import { rafraichir } from '../socle/index.js?v=1';
+import { rafraichir } from '../socle/index.js?v=2';
 const pret = async () => ({ gsap: window.gsap, calme: false, lenis: null, rafraichir });
 
 const MESSAGES = {

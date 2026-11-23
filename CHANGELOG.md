@@ -1,5 +1,22 @@
 # Journal des versions · DNL Avocats
 
+## v2 · 23 novembre 2026
+
+Analyse complète des six pages (ordinateur et téléphone, section par section, films) et passage à une version plus vivante et plus interactive, avec le même système visuel.
+
+- **Partout** : l'anneau terre cuite du monogramme de l'en-tête se remplit avec la lecture de la page ; grande phrase de fin « À vos côtés. » qui glisse dans le pied de page.
+- **Accueil, méthode** : la table ronde tourne pour amener chaque place face au visiteur (écouter, rassurer, conseiller, défendre) ; les numéros des étapes sont cliquables et mènent au bon moment de la scène (sur téléphone, ils rejouent la table).
+- **Accueil, honoraires** : deux repères courent sur l'horloge (l'heure, puis la demi-heure).
+- **Accueil, « Votre situation concerne… »** : chaque puce (divorce, filiation, permis, carrière…) mène directement au domaine.
+- **Accueil, avocates** : nouveau choix « Qui vous reçoit pour… » : en touchant un domaine, les avocates concernées s'avancent et une phrase dit qui vous reçoit.
+- **Accueil, Lyon et Avignon** : photos des villes recadrées en paysage.
+- **Appel final des pages intérieures** : la table tourne jusqu'à ce que la place « Vous » soit face au visiteur, puis s'allume.
+- **Domaines** : sous-navigation collante qui suit la lecture (domaine en cours, barre de progression ; sur téléphone, domaine en cours et bouton « suivant »).
+- **Le cabinet** : la frise s'allume année après année au défilement.
+- **Honoraires** : pictogrammes des trois étapes tracés à l'arrivée ; barres proportionnelles aux montants « à partir de » dans la grille ; photo de la table du cabinet à côté des questions fréquentes.
+- **Lisibilité** : étapes et libellés de la table en couleurs contrastées plutôt qu'en transparence.
+- **Robustesse** : plus aucun effet de défilement à l'intérieur d'une apparition en cascade (avocates, bureaux, adresses).
+
 ## v1 · 20 novembre 2026
 
 Première version de la maquette, direction « À vos côtés » (ivoire, vert sapin, terre cuite ; DM Serif Display et Albert Sans).

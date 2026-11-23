@@ -700,3 +700,112 @@ html:not(.js) .plein { min-height: calc(100svh - 80px); }
 /* Sans JavaScript, l'en-tête est dans le flux : les ouvertures ne réservent plus un écran entier. */
 html:not(.js) .hero { min-height: 0; }
 html:not(.js) .prix-grille { min-height: 0; }
+
+/* ---------- v2 : interactions et finitions ---------- */
+/* Anneau de lecture : l'anneau terre cuite du monogramme se remplit avec la lecture de la page. */
+.mono--entete .mono-anneau { stroke: var(--ligne); }
+.mono--entete .mono-progres { fill: none; stroke: var(--accent); stroke-width: 3.2; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 0; }
+html.js:not(.secours) .mono--entete .mono-progres { stroke-dashoffset: 1; }
+
+/* Méthode : numéros cliquables, libellés plus lisibles, la table tourne. */
+button.methode-num { padding: 0; background: transparent; color: inherit; font: inherit; font-weight: 700; cursor: pointer; min-width: 44px; min-height: 44px; width: 44px; height: 44px; }
+button.methode-num:hover { border-color: var(--accent-clair); }
+.methode-etape { grid-template-columns: 48px minmax(0, 1fr); opacity: 1; }
+.methode-etape h3 { color: rgba(246, 242, 235, .62); transition: color .5s var(--courbe); }
+.methode-etape p { color: rgba(246, 242, 235, .62); transition: color .5s var(--courbe); }
+.methode-etape.est-active h3, .methode-etape.est-faite h3 { color: var(--ivoire); }
+.methode-etape.est-active p, .methode-etape.est-faite p { color: rgba(246, 242, 235, .88); }
+.place-libelle { fill: #5A4A32; opacity: 1; transition: fill .5s; }
+.place-libelle.est-active { fill: var(--encre); font-weight: 700; }
+
+/* Horloge : têtes de progression sur les anneaux. */
+.horloge-tete circle { fill: var(--accent); stroke: var(--ivoire); stroke-width: 3; }
+.horloge-tete--demi circle { fill: var(--sapin); }
+:is(html.secours, html:not(.js)) .horloge-tete { display: none; }
+
+/* Écran partagé : les puces mènent au domaine. */
+.partage-liste li { padding: 0; border: 0; }
+.partage-liste a { display: inline-flex; align-items: center; min-height: 40px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--ligne); font-size: .95rem; font-weight: 500; text-decoration: none; transition: background-color .3s, color .3s, border-color .3s; }
+.partage-moitie--public .partage-liste a { border-color: rgba(246, 242, 235, .35); }
+.partage-liste a:hover, .partage-liste a:focus-visible { background: var(--accent); border-color: var(--accent); color: var(--ivoire); }
+@media (pointer: coarse) { .partage-liste a { min-height: 44px; } }
+
+/* Accueil : « Qui vous reçoit pour… » */
+.qui { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: -12px 0 clamp(24px, 4vh, 40px); }
+.qui-titre { margin: 0; font-weight: 700; }
+.qui-puces { display: flex; flex-wrap: wrap; gap: 8px; }
+.qui-puce { min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--ligne); background: #fff; font-weight: 600; transition: background-color .3s, color .3s, border-color .3s, transform .3s var(--courbe); }
+.qui-puce:hover { border-color: var(--accent); transform: translateY(-2px); }
+.qui-puce[aria-pressed="true"] { background: var(--sapin); border-color: var(--sapin); color: var(--ivoire); }
+.qui-reponse { flex-basis: 100%; margin: 0; color: var(--texte-doux); min-height: 1.6em; }
+.avocate { transition: transform .7s var(--courbe), filter .7s var(--courbe); }
+.avocate.est-retiree { filter: grayscale(1) contrast(.9); transform: scale(.94); }
+.avocate.est-retiree .avocate-nom, .avocate.est-retiree p { color: var(--texte-doux); }
+.avocate.est-choisie .avocate-media { box-shadow: 0 0 0 4px var(--ivoire), 0 0 0 7px var(--accent); }
+.avocate-media { transition: box-shadow .5s var(--courbe); }
+@media (hover: hover) { .avocate-lien:hover .avocate-media img { transform: scale(1.05); } }
+
+/* Lyon et Avignon : photos de paysage en 4:3. */
+.bureau-media { aspect-ratio: 4 / 3; }
+
+/* Domaines : sous-navigation collante qui suit la lecture. */
+.dom-nav { position: sticky; top: var(--entete-h); z-index: 40; background: var(--ivoire); border-bottom: 1px solid var(--ligne); transition: top .45s var(--courbe); }
+html.entete-cache .dom-nav { top: 0; }
+.dom-nav-rangee { display: flex; align-items: center; gap: 16px; min-height: 60px; }
+.dom-nav-liens { list-style: none; margin: 0; padding: 0; display: flex; gap: 6px; flex-wrap: wrap; }
+.dom-nav-liens a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 14px 0 6px; border-radius: 999px; text-decoration: none; font-weight: 600; transition: background-color .3s, color .3s; }
+.dom-nav-liens a:hover { background: #fff; }
+.dom-nav-liens a[aria-current] { background: var(--sapin); color: var(--ivoire); }
+.dom-nav-liens a[aria-current] .dom-nav-num { background: var(--accent-clair); color: var(--sapin); }
+.dom-nav-num { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--sapin); color: var(--ivoire); font-size: .85rem; font-weight: 700; flex: none; }
+.dom-nav-courant { display: none; margin: 0; align-items: center; gap: 10px; font-weight: 700; }
+.dom-nav-total { color: var(--texte-doux); font-weight: 500; }
+.dom-nav-suivant { display: none; margin-left: auto; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--accent); color: var(--ivoire); text-decoration: none; font-size: 1.2rem; }
+.dom-nav-barre { position: absolute; left: 0; right: 0; bottom: -1px; height: 3px; background: var(--accent); transform: scaleX(0); transform-origin: 0 50%; }
+.domaine { scroll-margin-top: calc(var(--entete-h) + 72px); }
+:is(html.secours, html:not(.js)) .dom-nav-barre { display: none; }
+@media (max-width: 900px) {
+  .dom-nav-liens { display: none; }
+  .dom-nav-courant { display: flex; }
+  .dom-nav-suivant { display: grid; }
+  .dom-nav-suivant[hidden] { display: none; }
+  .dom-nav-rangee { min-height: 56px; }
+}
+:is(html.secours, html:not(.js)) .dom-nav-courant, :is(html.secours, html:not(.js)) .dom-nav-suivant { display: none; }
+@media (max-width: 900px) { :is(html.secours, html:not(.js)) .dom-nav { position: static; } :is(html.secours, html:not(.js)) .dom-nav-liens { display: flex; padding-block: 8px; } }
+
+/* Cabinet : la frise s'allume année après année. */
+.frise--vivante .frise-annee { background: transparent; color: var(--accent-clair); box-shadow: inset 0 0 0 1.5px var(--accent-clair); transition: transform .45s var(--courbe); }
+.frise--vivante li.est-allume .frise-annee { background: var(--accent-clair); color: var(--sapin); transform: scale(1.06); }
+.frise--vivante li p { transition: color .45s; }
+.frise-trait { z-index: 0; }
+.frise-liste li { position: relative; }
+.frise--vivante .frise-annee { position: relative; z-index: 1; background-color: var(--sapin); }
+.frise--vivante li.est-allume .frise-annee { background-color: var(--accent-clair); }
+
+/* Honoraires : barres proportionnelles au montant « à partir de ». */
+.grille-barre { display: block; height: 4px; margin-top: 8px; border-radius: 4px; width: calc(var(--v) * 100%); max-width: 100%; background: linear-gradient(90deg, var(--accent-clair), var(--accent)); transform-origin: 0 50%; }
+.barres--pretes .grille-barre { transform: scaleX(0); transition: transform 1.1s var(--courbe); }
+.barres--pretes tr:nth-child(n) .grille-barre { transition-delay: calc(var(--i, 0) * 40ms); }
+.barres--vues .grille-barre { transform: scaleX(1); }
+.grille tbody tr { transition: background-color .3s; }
+@media (hover: hover) { .grille tbody tr:hover { background: var(--ivoire); } }
+
+/* Pied de page : la phrase de fin. */
+.pied-fin { margin: 0 auto clamp(28px, 5vh, 56px); padding-top: clamp(24px, 5vh, 56px); font-family: var(--police-titres); font-size: clamp(3.6rem, 12vw, 11rem); line-height: 1.1; white-space: nowrap; color: var(--sapin); }
+.pied-fin em { color: var(--accent); }
+.pied { overflow: hidden; }
+@media (max-width: 760px) { .pied-fin { font-size: clamp(3rem, 17vw, 5rem); } }
+/* Honoraires : pictogrammes tracés des trois étapes. */
+.etape-tete { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+.etape-tete .etape-num { margin-bottom: 0; }
+.etape-icone { width: 56px; height: 56px; fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.etapes--pretes .etape-icone :is(path, circle, rect) { stroke-dasharray: 200; stroke-dashoffset: 200; transition: stroke-dashoffset 1.6s var(--courbe); }
+.etapes--pretes li:nth-child(2) .etape-icone :is(path, circle, rect) { transition-delay: .35s; }
+.etapes--pretes li:nth-child(3) .etape-icone :is(path, circle, rect) { transition-delay: .7s; }
+.etapes--vues .etape-icone :is(path, circle, rect) { stroke-dashoffset: 0; }
+.etape-icone { background: var(--ivoire); border-radius: 14px; padding: 4px; box-sizing: content-box; position: relative; }
+.etapes-liste li { z-index: 1; }
+/* Questions fréquentes : la vraie table du cabinet sous le titre. */
+.faq-media { margin-top: 24px; aspect-ratio: 4 / 3; border-radius: var(--rayon); }
+@media (max-width: 760px) { .faq-media { aspect-ratio: 3 / 2; } }

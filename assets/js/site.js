@@ -2,7 +2,7 @@
    et la bibliothèque d'effets (lignes, mots, cascade, rideau, parallaxe, zoom, magnétique…).
    Effets du plan (data-effet) : pastille, partage, table-ronde, horloge, accord, appel-cercle, quatrieme-place,
    cabinet-ouverture, bandeau, prix-geant, trio. */
-import { demarrer, versObjet, quand } from './socle/index.js?v=1';
+import { demarrer, versObjet, quand } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = () => window.ScrollTrigger;
@@ -80,6 +80,13 @@ function partage() {
 }
 
 /* ---------- Table ronde : quatre places qui s'allument (méthode) ---------- */
+function tourner(table, n, duree = 0.9) {
+  const g = $('.table-tourne', table);
+  if (!g || n < 0) return;
+  const r = 90 - [-90, 0, 90, 180][n];
+  gsap.to(g, { rotation: r, svgOrigin: '200 200', duration: duree, ease: 'power3.inOut', overwrite: true });
+  $$('.place-libelle', table).forEach((t) => gsap.to(t, { rotation: -r, svgOrigin: `${t.dataset.x} ${t.dataset.y}`, duration: duree, ease: 'power3.inOut', overwrite: true }));
+}
 function allumer(table, n, etapes) {
   $$('.place', table).forEach((p, i) => p.classList.toggle('est-active', i <= n));
   $$('.place-libelle', table).forEach((p, i) => p.classList.toggle('est-active', i <= n));
@@ -99,11 +106,21 @@ function methode() {
         const p = Math.max(0, (self.progress - 0.03) / 0.97);
         gsap.set(anneau, { strokeDashoffset: 1 - p });
         const n = Math.min(3, Math.floor(p * 4.0001));
-        if (n !== courant) { courant = n; allumer(table, n, etapes); }
+        if (n !== courant) { courant = n; allumer(table, n, etapes); tourner(table, n); }
       },
     });
     allumer(table, 0, etapes);
-    return () => st.kill();
+    tourner(table, 0, 0);
+    /* Les numéros des étapes mènent à leur moment de la scène. */
+    const aller = (e) => {
+      const b = e.target.closest('[data-aller-etape]');
+      if (!b) return;
+      const i = +b.dataset.allerEtape;
+      const y = st.start + (0.03 + (i + 0.5) / 4 * 0.97) * (st.end - st.start);
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    };
+    s.addEventListener('click', aller);
+    return () => { st.kill(); s.removeEventListener('click', aller); };
   });
   mm.add('(max-width: 760px)', () => {
     /* En une colonne : la scène se joue au temps, une fois, quand la table entre à l'écran. */
@@ -111,9 +128,13 @@ function methode() {
     gsap.set(anneau, { strokeDashoffset: 1 });
     const tl = gsap.timeline({ paused: true });
     tl.to(anneau, { strokeDashoffset: 0, duration: 2.4, ease: 'power2.inOut' });
-    [0, 1, 2, 3].forEach((i) => tl.call(() => allumer(table, i, etapes), null, 0.2 + i * 0.6));
+    tourner(table, 0, 0);
+    [0, 1, 2, 3].forEach((i) => tl.call(() => { allumer(table, i, etapes); tourner(table, i, 0.55); }, null, 0.2 + i * 0.6));
+    /* En une colonne, toucher un numéro rejoue la table sur cette étape. */
+    const aller = (e) => { const b = e.target.closest('[data-aller-etape]'); if (b) { const i = +b.dataset.allerEtape; allumer(table, i, etapes); tourner(table, i, 0.6); } };
+    s.addEventListener('click', aller);
     const st = ST().create({ trigger: table, start: 'top 80%', once: true, onEnter: () => tl.play() });
-    return () => { st.kill(); tl.kill(); };
+    return () => { st.kill(); tl.kill(); s.removeEventListener('click', aller); };
   });
 }
 
@@ -122,8 +143,10 @@ function horloge() {
   const h = $('.horloge');
   if (!h || !ST()) return;
   const tl = gsap.timeline({ scrollTrigger: { trigger: h, start: 'top 85%', end: 'center 40%', scrub: 0.5 } });
-  tl.fromTo($('.horloge-heure', h), { strokeDashoffset: 1 }, { strokeDashoffset: 0, ease: 'none', duration: 2 })
-    .fromTo($('.horloge-demi', h), { strokeDashoffset: 1 }, { strokeDashoffset: 0.5, ease: 'none', duration: 1 });
+  tl.fromTo($('.horloge-heure', h), { strokeDashoffset: 1 }, { strokeDashoffset: 0, ease: 'none', duration: 2 }, 0)
+    .fromTo($('.horloge-tete--heure', h), { rotation: 0 }, { rotation: 360, svgOrigin: '120 120', ease: 'none', duration: 2 }, 0)
+    .fromTo($('.horloge-demi', h), { strokeDashoffset: 1 }, { strokeDashoffset: 0.5, ease: 'none', duration: 1 }, 2)
+    .fromTo($('.horloge-tete--demi', h), { rotation: 0, opacity: 0 }, { rotation: 180, opacity: 1, svgOrigin: '120 120', ease: 'none', duration: 1 }, 2);
 }
 
 /* ---------- L'amiable d'abord : deux cercles qui se rejoignent ---------- */
@@ -150,14 +173,14 @@ function appelCercle() {
 function quatriemePlace() {
   const t = $('[data-effet="quatrieme-place"]');
   if (!t || !ST()) return;
-  const anneau = $('.table-anneau', t);
+  const anneau = $('.table-anneau', t), g = $('.table-tourne', t), libelles = $$('.place-libelle', t);
   allumer(t, 2);
   let fait = false;
-  gsap.fromTo(anneau, { strokeDashoffset: 1 }, {
-    strokeDashoffset: 0, ease: 'none',
-    scrollTrigger: { trigger: t, start: 'top 90%', end: 'center 50%', scrub: 0.5,
-      onUpdate: (self) => { const v = self.progress > 0.85; if (v !== fait) { fait = v; allumer(t, v ? 3 : 2); } } },
-  });
+  const tl = gsap.timeline({ scrollTrigger: { trigger: t, start: 'top 90%', end: 'center 50%', scrub: 0.5,
+    onUpdate: (self) => { const v = self.progress > 0.85; if (v !== fait) { fait = v; allumer(t, v ? 3 : 2); } } } });
+  tl.fromTo(anneau, { strokeDashoffset: 1 }, { strokeDashoffset: 0, ease: 'none' }, 0)
+    .fromTo(g, { rotation: 0 }, { rotation: -90, svgOrigin: '200 200', ease: 'none' }, 0);
+  libelles.forEach((l) => tl.fromTo(l, { rotation: 0 }, { rotation: 90, svgOrigin: `${l.dataset.x} ${l.dataset.y}`, ease: 'none' }, 0));
 }
 
 /* ---------- Ouvertures des pages intérieures ---------- */
@@ -217,7 +240,7 @@ async function formulaire() {
     const r = v && root.querySelector(`input[name="${nom}"][value="${CSS.escape(v)}"]`);
     if (r) r.checked = true;
   }
-  const { init } = await import('./modules/formulaire-par-etapes.js?v=1');
+  const { init } = await import('./modules/formulaire-par-etapes.js?v=2');
   await init(root, { messages: { etape: 'Étape {n} sur {total}' } });
   root.addEventListener('formulaire:envoye', () => {
     const fin = $('.fpe__fin', root);
@@ -231,6 +254,85 @@ function trio() {
   if (!t) return;
   const m = $$('.trio-medaillon', t);
   if (ST()) gsap.fromTo(m, { x: (i) => (i - 1) * 26 }, { x: 0, ease: 'none', scrollTrigger: { trigger: t, start: 'top 95%', end: 'top 40%', scrub: 0.5 } });
+}
+
+/* ---------- Anneau de lecture autour du monogramme de l'en-tête ---------- */
+function lecture() {
+  const r = $('.mono--entete .mono-progres');
+  if (!r || !ST()) return;
+  gsap.set(r, { strokeDashoffset: 1 });
+  ST().create({ start: 0, end: 'max', onUpdate: (self) => gsap.set(r, { strokeDashoffset: 1 - self.progress }) });
+}
+
+/* ---------- Accueil : « Qui vous reçoit pour… » : les avocates concernées s'avancent ---------- */
+function qui() {
+  const q = $('[data-qui]');
+  if (!q) return;
+  const cartes = $$('[data-avocate]'), rep = $('[data-qui-reponse]', q), aide = rep ? rep.textContent : '';
+  q.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-qui-domaine]');
+    if (!b) return;
+    $$('[data-qui-domaine]', q).forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    const ids = b.dataset.avocates ? b.dataset.avocates.split(' ') : null;
+    cartes.forEach((c) => { const ok = !ids || ids.includes(c.dataset.avocate); c.classList.toggle('est-choisie', !!ids && ok); c.classList.toggle('est-retiree', !ok); });
+    if (rep) rep.textContent = b.dataset.reponse || aide;
+  });
+}
+
+/* ---------- Domaines : sous-navigation qui suit la lecture ---------- */
+function sousNav() {
+  const nav = $('[data-dom-nav]');
+  if (!nav || !ST()) return;
+  const suite = nav.parentElement, sections = $$('.domaine', suite), barre = $('[data-dom-barre]', nav);
+  const num = $('[data-dom-num]', nav), titre = $('[data-dom-titre]', nav), suivant = $('[data-dom-suivant]', nav);
+  const liens = $$('[data-dom-lien]', nav);
+  const activer = (i) => {
+    liens.forEach((l, j) => (i === j ? l.setAttribute('aria-current', 'true') : l.removeAttribute('aria-current')));
+    if (num) num.textContent = String(i + 1);
+    if (titre) titre.textContent = liens[i] ? liens[i].textContent.replace(/^\d+/, '').trim() : '';
+    if (suivant) { const n = sections[i + 1]; suivant.hidden = !n; if (n) suivant.setAttribute('href', `#${n.id}`); }
+  };
+  /* Domaine courant calculé à partir des positions gardées (aucune mesure pendant le défilement),
+     juste aussi après un saut direct (lien, retour en haut). */
+  const reperes = sections.map((s) => ST().create({ trigger: s, start: 'top 45%' }));
+  let courant = -1;
+  const maj = (y) => { let i = 0; reperes.forEach((r, j) => { if (y >= r.start) i = j; }); if (i !== courant) { courant = i; activer(i); } };
+  ST().create({ trigger: suite, start: 'top bottom', end: 'bottom top', onUpdate: (self) => maj(self.scroll()), onRefresh: (self) => maj(self.scroll()) });
+  if (barre) gsap.fromTo(barre, { scaleX: 0 }, { scaleX: 1, ease: 'none', transformOrigin: '0 50%', scrollTrigger: { trigger: suite, start: 'top top', end: 'bottom bottom', scrub: 0.3 } });
+  maj(window.scrollY);
+}
+
+/* ---------- Cabinet : la frise s'allume année après année ---------- */
+function frise() {
+  const f = $('[data-frise]');
+  if (!f || !ST()) return;
+  const items = $$('.frise-liste > li', f), n = items.length;
+  f.classList.add('frise--vivante');
+  ST().create({ trigger: f, start: 'top 80%', end: 'bottom 55%', scrub: true,
+    onUpdate: (self) => items.forEach((li, i) => li.classList.toggle('est-allume', self.progress >= i / n + 0.02)) });
+}
+
+/* ---------- Honoraires : les barres de la grille se remplissent ---------- */
+function barres() {
+  const t = $('[data-effet="barres"]');
+  if (!t || !ST()) return;
+  t.classList.add('barres--pretes');
+  ST().create({ trigger: t, start: 'top 85%', once: true, onEnter: () => t.classList.add('barres--vues') });
+}
+
+/* ---------- Honoraires : les pictogrammes des étapes se tracent ---------- */
+function etapes() {
+  const e = $('[data-etapes]');
+  if (!e || !ST()) return;
+  e.classList.add('etapes--pretes');
+  ST().create({ trigger: e, start: 'top 80%', once: true, onEnter: () => e.classList.add('etapes--vues') });
+}
+
+/* ---------- Pied de page : « À vos côtés. » glisse doucement ---------- */
+function piedFin() {
+  const p = $('[data-effet="pied-fin"]');
+  if (!p || !ST()) return;
+  gsap.fromTo(p, { xPercent: 6 }, { xPercent: -2, ease: 'none', scrollTrigger: { trigger: p, start: 'top bottom', end: 'bottom 40%', scrub: 0.5 } });
 }
 
 /* ---------- Ouverture : intro (lettres, anneau, puis la page s'ouvre en cercle) et arrivée sous le voile ---------- */
@@ -255,6 +357,13 @@ demarrer({
     grille();
     trio();
     formulaire();
+    lecture();
+    qui();
+    sousNav();
+    frise();
+    barres();
+    etapes();
+    piedFin();
   },
   /* Intro (≈ 2,3 s) : D, N, L montent, l'anneau se trace, le monogramme glisse vers l'objet d'ouverture de la page
      et le panneau s'ouvre en cercle depuis lui ; le titre monte pendant l'ouverture. */
